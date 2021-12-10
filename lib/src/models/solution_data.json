@@ -1,0 +1,1477 @@
+{
+  "date": "2021-12-09T23:00:00.000Z",
+  "id": {
+    "travelSolutionId": 1
+  },
+  "state": "NEW",
+  "mainTransportTypes": [
+    "TRAIN"
+  ],
+  "tagValues": [],
+  "xmlId": "x4b4b0378-cfe6-4a9a-9762-63677aa48e45",
+  "departurePlace": {
+    "label": "Rimini",
+    "tags": [
+      "NetworkNode"
+    ],
+    "coordinates": {
+      "longitude": 12.574098,
+      "latitude": 44.064034
+    },
+    "locationId": 830005071,
+    "alias": null,
+    "timezone": "Europe/Rome"
+  },
+  "arrivalPlace": {
+    "label": "Milano Centrale",
+    "tags": [
+      "NetworkNode"
+    ],
+    "coordinates": {
+      "longitude": 9.204544,
+      "latitude": 45.486341
+    },
+    "locationId": 830001700,
+    "alias": "MILAN MAIN STATION                 \r",
+    "timezone": "Europe/Rome"
+  },
+  "departureLocation": {
+    "timezone": "Europe/Rome",
+    "name": "Rimini",
+    "aliases": [],
+    "locationId": 830005071,
+    "visible": true,
+    "geographicCoordinates": {
+      "longitude": 12.574098,
+      "latitude": 44.064034
+    },
+    "attributeValues": [],
+    "bdo": true,
+    "bdoCode": "S05071",
+    "multistation": false,
+    "zonaFrecce": true
+  },
+  "arrivalLocation": {
+    "timezone": "Europe/Rome",
+    "name": "Milano Centrale",
+    "aliases": [
+      {
+        "name": "MILAN MAIN STATION                 \r",
+        "lang": "EN"
+      },
+      {
+        "name": "MAILAND HAUPTBAHNHOF               \r",
+        "lang": "DE"
+      },
+      {
+        "name": "MILAN ESTACION CENTRAL             \r",
+        "lang": "ES"
+      },
+      {
+        "name": "MILAN GARE CENTRALE                \r",
+        "lang": "FR"
+      }
+    ],
+    "locationId": 830001700,
+    "visible": true,
+    "geographicCoordinates": {
+      "longitude": 9.204544,
+      "latitude": 45.486341
+    },
+    "attributeValues": [],
+    "bdo": true,
+    "bdoCode": "S01700",
+    "multistation": false,
+    "zonaFrecce": true
+  },
+  "departureTime": "2021-12-10T08:47:00.000Z",
+  "arrivalTime": "2021-12-10T12:40:00.000Z",
+  "totalDuration": 13980000,
+  "transportTypes": [
+    "TRAIN"
+  ],
+  "classificationAcronyms": [
+    "IC"
+  ],
+  "classificationAcronymsSequence": [
+    "IC"
+  ],
+  "solutionNodes": [
+    {
+      "type": "SOLUTION_SEGMENT",
+      "idXml": "x0361f4e3-f8b9-490c-9594-c3c47f51be31",
+      "startLocation": {
+        "timezone": "Europe/Rome",
+        "name": "Rimini",
+        "aliases": [],
+        "locationId": 830005071,
+        "visible": true,
+        "geographicCoordinates": {
+          "longitude": 12.574098,
+          "latitude": 44.064034
+        },
+        "attributeValues": [],
+        "bdo": null,
+        "bdoCode": null,
+        "multistation": null,
+        "zonaFrecce": null
+      },
+      "endLocation": {
+        "timezone": "Europe/Rome",
+        "name": "Milano Centrale",
+        "aliases": [
+          {
+            "name": "MILAN MAIN STATION                 \r",
+            "lang": "EN"
+          },
+          {
+            "name": "MAILAND HAUPTBAHNHOF               \r",
+            "lang": "DE"
+          },
+          {
+            "name": "MILAN ESTACION CENTRAL             \r",
+            "lang": "ES"
+          },
+          {
+            "name": "MILAN GARE CENTRALE                \r",
+            "lang": "FR"
+          }
+        ],
+        "locationId": 830001700,
+        "visible": true,
+        "geographicCoordinates": {
+          "longitude": 9.204544,
+          "latitude": 45.486341
+        },
+        "attributeValues": [],
+        "bdo": null,
+        "bdoCode": null,
+        "multistation": null,
+        "zonaFrecce": null
+      },
+      "subSegments": [],
+      "solutionServices": [
+        {
+          "catalogService": {
+            "id": 298,
+            "type": "ADDITIONAL_SERVICE",
+            "name": "ANIMALE-PRENOTABILE",
+            "displayName": "Trasporto Animale",
+            "descriptionShort": "Medium or large-sized dogs transport service",
+            "descriptionStandard": "Medium or large-sized dogs transport service",
+            "descriptionExtended": "Medium or large-sized dogs transport service",
+            "saleCompany": {
+              "companyName": "Trenitalia",
+              "corporateDesignation": "S.p.A.",
+              "id": "0083",
+              "logoId": 68
+            },
+            "selectionTravellerParameters": [],
+            "issueTravellerParameters": [],
+            "selectionServiceParameters": [],
+            "issueServiceParameters": [],
+            "mandatoryInvoice": false,
+            "multiselection": true,
+            "attributes": [],
+            "availableServiceId": 223,
+            "status": "OFFERED"
+          },
+          "available": false,
+          "offersNumber": 0,
+          "providerId": null
+        },
+        {
+          "catalogService": {
+            "id": 158,
+            "type": "SEAT",
+            "name": "IC 01 CLASSE",
+            "displayName": "1Âª CLASSE",
+            "descriptionShort": "",
+            "descriptionStandard": "",
+            "descriptionExtended": "",
+            "saleCompany": {
+              "companyName": "Trenitalia",
+              "corporateDesignation": "S.p.A.",
+              "id": "0083",
+              "logoId": 68
+            },
+            "selectionTravellerParameters": [],
+            "issueTravellerParameters": [
+              {
+                "displayName": "NAME",
+                "readOnly": false,
+                "validationMessages": [],
+                "allowedValues": [],
+                "type": {
+                  "validation": true,
+                  "typeDefinition": {
+                    "enumeration": [],
+                    "validationPattern": "[\\u0370-\\u03ff\\u1f00-\\u1fffA-Za-z0-9 'Ã Ã©Ã¨Ã¬Ã²Ã¹Ã¤Ã«Ã¯Ã¶Ã¼Ã§ÃÃÃÃÃÃÃÃÃÃ_-]{1,}",
+                    "inputPattern": "[\\u0370-\\u03ff\\u1f00-\\u1fffA-Za-z 'Ã Ã©Ã¨Ã¬Ã²Ã¹Ã¤Ã«Ã¯Ã¶Ã¼Ã§ÃÃÃÃÃÃÃÃÃÃ-]",
+                    "minLength": 1,
+                    "maxLength": 254,
+                    "baseType": "STRING"
+                  },
+                  "hidden": false,
+                  "id": 10,
+                  "identification": false,
+                  "personal": true,
+                  "marker": false
+                }
+              },
+              {
+                "displayName": "SURNAME",
+                "readOnly": false,
+                "validationMessages": [],
+                "allowedValues": [],
+                "type": {
+                  "validation": true,
+                  "typeDefinition": {
+                    "enumeration": [],
+                    "validationPattern": "[\\u0370-\\u03ff\\u1f00-\\u1fffA-Za-z0-9 'Ã Ã©Ã¨Ã¬Ã²Ã¹Ã¤Ã«Ã¯Ã¶Ã¼Ã§ÃÃÃÃÃÃÃÃÃÃ_-]{1,}",
+                    "inputPattern": "[\\u0370-\\u03ff\\u1f00-\\u1fffA-Za-z 'Ã Ã©Ã¨Ã¬Ã²Ã¹Ã¤Ã«Ã¯Ã¶Ã¼Ã§ÃÃÃÃÃÃÃÃÃÃ-]",
+                    "minLength": 1,
+                    "maxLength": 254,
+                    "baseType": "STRING"
+                  },
+                  "hidden": false,
+                  "id": 11,
+                  "identification": false,
+                  "personal": true,
+                  "marker": false
+                }
+              }
+            ],
+            "selectionServiceParameters": [],
+            "issueServiceParameters": [],
+            "mandatoryInvoice": false,
+            "multiselection": true,
+            "attributes": [
+              {
+                "name": "BRAND",
+                "values": [
+                  {
+                    "id": 29,
+                    "value": "INTERCITY",
+                    "displayName": "InterCity",
+                    "displayOrder": 5
+                  }
+                ],
+                "status": "OFFERED"
+              },
+              {
+                "name": "LEVEL",
+                "values": [
+                  {
+                    "id": 26,
+                    "value": "1Â° Classe",
+                    "displayName": "1st Class",
+                    "displayOrder": 3
+                  }
+                ],
+                "status": "OFFERED"
+              }
+            ],
+            "availableServiceId": 1,
+            "status": "OFFERED"
+          },
+          "available": true,
+          "offersNumber": 1,
+          "providerId": 1
+        },
+        {
+          "catalogService": {
+            "id": 170,
+            "type": "SEAT",
+            "name": "IC 02 CLASSE",
+            "displayName": "2Âª CLASSE",
+            "descriptionShort": "",
+            "descriptionStandard": "",
+            "descriptionExtended": "",
+            "saleCompany": {
+              "companyName": "Trenitalia",
+              "corporateDesignation": "S.p.A.",
+              "id": "0083",
+              "logoId": 68
+            },
+            "selectionTravellerParameters": [],
+            "issueTravellerParameters": [
+              {
+                "displayName": "NAME",
+                "readOnly": false,
+                "validationMessages": [],
+                "allowedValues": [],
+                "type": {
+                  "validation": true,
+                  "typeDefinition": {
+                    "enumeration": [],
+                    "validationPattern": "[\\u0370-\\u03ff\\u1f00-\\u1fffA-Za-z0-9 'Ã Ã©Ã¨Ã¬Ã²Ã¹Ã¤Ã«Ã¯Ã¶Ã¼Ã§ÃÃÃÃÃÃÃÃÃÃ_-]{1,}",
+                    "inputPattern": "[\\u0370-\\u03ff\\u1f00-\\u1fffA-Za-z 'Ã Ã©Ã¨Ã¬Ã²Ã¹Ã¤Ã«Ã¯Ã¶Ã¼Ã§ÃÃÃÃÃÃÃÃÃÃ-]",
+                    "minLength": 1,
+                    "maxLength": 254,
+                    "baseType": "STRING"
+                  },
+                  "hidden": false,
+                  "id": 10,
+                  "identification": false,
+                  "personal": true,
+                  "marker": false
+                }
+              },
+              {
+                "displayName": "SURNAME",
+                "readOnly": false,
+                "validationMessages": [],
+                "allowedValues": [],
+                "type": {
+                  "validation": true,
+                  "typeDefinition": {
+                    "enumeration": [],
+                    "validationPattern": "[\\u0370-\\u03ff\\u1f00-\\u1fffA-Za-z0-9 'Ã Ã©Ã¨Ã¬Ã²Ã¹Ã¤Ã«Ã¯Ã¶Ã¼Ã§ÃÃÃÃÃÃÃÃÃÃ_-]{1,}",
+                    "inputPattern": "[\\u0370-\\u03ff\\u1f00-\\u1fffA-Za-z 'Ã Ã©Ã¨Ã¬Ã²Ã¹Ã¤Ã«Ã¯Ã¶Ã¼Ã§ÃÃÃÃÃÃÃÃÃÃ-]",
+                    "minLength": 1,
+                    "maxLength": 254,
+                    "baseType": "STRING"
+                  },
+                  "hidden": false,
+                  "id": 11,
+                  "identification": false,
+                  "personal": true,
+                  "marker": false
+                }
+              }
+            ],
+            "selectionServiceParameters": [],
+            "issueServiceParameters": [],
+            "mandatoryInvoice": false,
+            "multiselection": true,
+            "attributes": [
+              {
+                "name": "BRAND",
+                "values": [
+                  {
+                    "id": 29,
+                    "value": "INTERCITY",
+                    "displayName": "InterCity",
+                    "displayOrder": 5
+                  }
+                ],
+                "status": "OFFERED"
+              },
+              {
+                "name": "LEVEL",
+                "values": [
+                  {
+                    "id": 27,
+                    "value": "2Â° Classe",
+                    "displayName": "2nd Class",
+                    "displayOrder": 7
+                  }
+                ],
+                "status": "OFFERED"
+              }
+            ],
+            "availableServiceId": 9,
+            "status": "OFFERED"
+          },
+          "available": true,
+          "offersNumber": 1,
+          "providerId": 1
+        },
+        {
+          "catalogService": {
+            "id": 198,
+            "type": "ADDITIONAL_SERVICE",
+            "name": "BICICLETTA-PRENOTABILE",
+            "displayName": "Bicicletta",
+            "descriptionShort": "Bike transport service ",
+            "descriptionStandard": "Purchase the service now that allows you to travel with your bike on Intercity trains ",
+            "descriptionExtended": "Purchase Trenitaliaâs bike transport service now, allowing you to travel with your bicycle on Intercity trains",
+            "saleCompany": {
+              "companyName": "Trenitalia",
+              "corporateDesignation": "S.p.A.",
+              "id": "0083",
+              "logoId": 68
+            },
+            "selectionTravellerParameters": [],
+            "issueTravellerParameters": [],
+            "selectionServiceParameters": [],
+            "issueServiceParameters": [],
+            "mandatoryInvoice": false,
+            "multiselection": true,
+            "attributes": [],
+            "availableServiceId": 23,
+            "status": "OFFERED"
+          },
+          "available": false,
+          "offersNumber": 0,
+          "providerId": 1
+        },
+        {
+          "catalogService": {
+            "id": 20010,
+            "type": "SEAT",
+            "name": "1 PRENOT. IC_EC",
+            "displayName": "PRENOTAZIONE CARNET IC 1Âª CLASSE",
+            "descriptionShort": "",
+            "descriptionStandard": "",
+            "descriptionExtended": "",
+            "saleCompany": {
+              "companyName": "Trenitalia",
+              "corporateDesignation": "S.p.A.",
+              "id": "0083",
+              "logoId": 68
+            },
+            "selectionTravellerParameters": [],
+            "issueTravellerParameters": [
+              {
+                "displayName": "NAME",
+                "readOnly": false,
+                "validationMessages": [],
+                "allowedValues": [],
+                "type": {
+                  "validation": true,
+                  "typeDefinition": {
+                    "enumeration": [],
+                    "validationPattern": "[\\u0370-\\u03ff\\u1f00-\\u1fffA-Za-z0-9 'Ã Ã©Ã¨Ã¬Ã²Ã¹Ã¤Ã«Ã¯Ã¶Ã¼Ã§ÃÃÃÃÃÃÃÃÃÃ_-]{1,}",
+                    "inputPattern": "[\\u0370-\\u03ff\\u1f00-\\u1fffA-Za-z 'Ã Ã©Ã¨Ã¬Ã²Ã¹Ã¤Ã«Ã¯Ã¶Ã¼Ã§ÃÃÃÃÃÃÃÃÃÃ-]",
+                    "minLength": 1,
+                    "maxLength": 254,
+                    "baseType": "STRING"
+                  },
+                  "hidden": false,
+                  "id": 10,
+                  "identification": false,
+                  "personal": true,
+                  "marker": false
+                }
+              },
+              {
+                "displayName": "SURNAME",
+                "readOnly": false,
+                "validationMessages": [],
+                "allowedValues": [],
+                "type": {
+                  "validation": true,
+                  "typeDefinition": {
+                    "enumeration": [],
+                    "validationPattern": "[\\u0370-\\u03ff\\u1f00-\\u1fffA-Za-z0-9 'Ã Ã©Ã¨Ã¬Ã²Ã¹Ã¤Ã«Ã¯Ã¶Ã¼Ã§ÃÃÃÃÃÃÃÃÃÃ_-]{1,}",
+                    "inputPattern": "[\\u0370-\\u03ff\\u1f00-\\u1fffA-Za-z 'Ã Ã©Ã¨Ã¬Ã²Ã¹Ã¤Ã«Ã¯Ã¶Ã¼Ã§ÃÃÃÃÃÃÃÃÃÃ-]",
+                    "minLength": 1,
+                    "maxLength": 254,
+                    "baseType": "STRING"
+                  },
+                  "hidden": false,
+                  "id": 11,
+                  "identification": false,
+                  "personal": true,
+                  "marker": false
+                }
+              }
+            ],
+            "selectionServiceParameters": [],
+            "issueServiceParameters": [],
+            "mandatoryInvoice": false,
+            "multiselection": true,
+            "attributes": [
+              {
+                "name": "BRAND",
+                "values": [
+                  {
+                    "id": 29,
+                    "value": "INTERCITY",
+                    "displayName": "InterCity",
+                    "displayOrder": 5
+                  }
+                ],
+                "status": "OFFERED"
+              },
+              {
+                "name": "LEVEL",
+                "values": [
+                  {
+                    "id": 26,
+                    "value": "1Â° Classe",
+                    "displayName": "1st Class",
+                    "displayOrder": 3
+                  }
+                ],
+                "status": "OFFERED"
+              },
+              {
+                "name": "TRAIN_CLASSIFICATION",
+                "values": [
+                  {
+                    "id": 32,
+                    "value": "IC",
+                    "displayName": "IC",
+                    "displayOrder": 0
+                  }
+                ],
+                "status": "OFFERED"
+              }
+            ],
+            "availableServiceId": 1,
+            "status": "OFFERED"
+          },
+          "available": false,
+          "offersNumber": 0,
+          "providerId": 1
+        },
+        {
+          "catalogService": {
+            "id": 20011,
+            "type": "SEAT",
+            "name": "2 PRENOT. IC_EC",
+            "displayName": "PRENOTAZIONE CARNET IC 2Âª CLASSE",
+            "descriptionShort": "",
+            "descriptionStandard": "",
+            "descriptionExtended": "",
+            "saleCompany": {
+              "companyName": "Trenitalia",
+              "corporateDesignation": "S.p.A.",
+              "id": "0083",
+              "logoId": 68
+            },
+            "selectionTravellerParameters": [],
+            "issueTravellerParameters": [
+              {
+                "displayName": "NAME",
+                "readOnly": false,
+                "validationMessages": [],
+                "allowedValues": [],
+                "type": {
+                  "validation": true,
+                  "typeDefinition": {
+                    "enumeration": [],
+                    "validationPattern": "[\\u0370-\\u03ff\\u1f00-\\u1fffA-Za-z0-9 'Ã Ã©Ã¨Ã¬Ã²Ã¹Ã¤Ã«Ã¯Ã¶Ã¼Ã§ÃÃÃÃÃÃÃÃÃÃ_-]{1,}",
+                    "inputPattern": "[\\u0370-\\u03ff\\u1f00-\\u1fffA-Za-z 'Ã Ã©Ã¨Ã¬Ã²Ã¹Ã¤Ã«Ã¯Ã¶Ã¼Ã§ÃÃÃÃÃÃÃÃÃÃ-]",
+                    "minLength": 1,
+                    "maxLength": 254,
+                    "baseType": "STRING"
+                  },
+                  "hidden": false,
+                  "id": 10,
+                  "identification": false,
+                  "personal": true,
+                  "marker": false
+                }
+              },
+              {
+                "displayName": "SURNAME",
+                "readOnly": false,
+                "validationMessages": [],
+                "allowedValues": [],
+                "type": {
+                  "validation": true,
+                  "typeDefinition": {
+                    "enumeration": [],
+                    "validationPattern": "[\\u0370-\\u03ff\\u1f00-\\u1fffA-Za-z0-9 'Ã Ã©Ã¨Ã¬Ã²Ã¹Ã¤Ã«Ã¯Ã¶Ã¼Ã§ÃÃÃÃÃÃÃÃÃÃ_-]{1,}",
+                    "inputPattern": "[\\u0370-\\u03ff\\u1f00-\\u1fffA-Za-z 'Ã Ã©Ã¨Ã¬Ã²Ã¹Ã¤Ã«Ã¯Ã¶Ã¼Ã§ÃÃÃÃÃÃÃÃÃÃ-]",
+                    "minLength": 1,
+                    "maxLength": 254,
+                    "baseType": "STRING"
+                  },
+                  "hidden": false,
+                  "id": 11,
+                  "identification": false,
+                  "personal": true,
+                  "marker": false
+                }
+              }
+            ],
+            "selectionServiceParameters": [],
+            "issueServiceParameters": [],
+            "mandatoryInvoice": false,
+            "multiselection": true,
+            "attributes": [
+              {
+                "name": "BRAND",
+                "values": [
+                  {
+                    "id": 29,
+                    "value": "INTERCITY",
+                    "displayName": "InterCity",
+                    "displayOrder": 5
+                  }
+                ],
+                "status": "OFFERED"
+              },
+              {
+                "name": "LEVEL",
+                "values": [
+                  {
+                    "id": 27,
+                    "value": "2Â° Classe",
+                    "displayName": "2nd Class",
+                    "displayOrder": 7
+                  }
+                ],
+                "status": "OFFERED"
+              },
+              {
+                "name": "TRAIN_CLASSIFICATION",
+                "values": [
+                  {
+                    "id": 32,
+                    "value": "IC",
+                    "displayName": "IC",
+                    "displayOrder": 0
+                  }
+                ],
+                "status": "OFFERED"
+              }
+            ],
+            "availableServiceId": 9,
+            "status": "OFFERED"
+          },
+          "available": false,
+          "offersNumber": 0,
+          "providerId": 1
+        },
+        {
+          "catalogService": {
+            "id": 20060,
+            "type": "SEAT",
+            "name": "1 PRENOT. IC",
+            "displayName": "PRENOTAZIONE CARNET 1Âª CLASSE",
+            "descriptionShort": "",
+            "descriptionStandard": "",
+            "descriptionExtended": "",
+            "saleCompany": {
+              "companyName": "Trenitalia",
+              "corporateDesignation": "S.p.A.",
+              "id": "0083",
+              "logoId": 68
+            },
+            "selectionTravellerParameters": [],
+            "issueTravellerParameters": [
+              {
+                "displayName": "NAME",
+                "readOnly": false,
+                "validationMessages": [],
+                "allowedValues": [],
+                "type": {
+                  "validation": true,
+                  "typeDefinition": {
+                    "enumeration": [],
+                    "validationPattern": "[\\u0370-\\u03ff\\u1f00-\\u1fffA-Za-z0-9 'Ã Ã©Ã¨Ã¬Ã²Ã¹Ã¤Ã«Ã¯Ã¶Ã¼Ã§ÃÃÃÃÃÃÃÃÃÃ_-]{1,}",
+                    "inputPattern": "[\\u0370-\\u03ff\\u1f00-\\u1fffA-Za-z 'Ã Ã©Ã¨Ã¬Ã²Ã¹Ã¤Ã«Ã¯Ã¶Ã¼Ã§ÃÃÃÃÃÃÃÃÃÃ-]",
+                    "minLength": 1,
+                    "maxLength": 254,
+                    "baseType": "STRING"
+                  },
+                  "hidden": false,
+                  "id": 10,
+                  "identification": false,
+                  "personal": true,
+                  "marker": false
+                }
+              },
+              {
+                "displayName": "SURNAME",
+                "readOnly": false,
+                "validationMessages": [],
+                "allowedValues": [],
+                "type": {
+                  "validation": true,
+                  "typeDefinition": {
+                    "enumeration": [],
+                    "validationPattern": "[\\u0370-\\u03ff\\u1f00-\\u1fffA-Za-z0-9 'Ã Ã©Ã¨Ã¬Ã²Ã¹Ã¤Ã«Ã¯Ã¶Ã¼Ã§ÃÃÃÃÃÃÃÃÃÃ_-]{1,}",
+                    "inputPattern": "[\\u0370-\\u03ff\\u1f00-\\u1fffA-Za-z 'Ã Ã©Ã¨Ã¬Ã²Ã¹Ã¤Ã«Ã¯Ã¶Ã¼Ã§ÃÃÃÃÃÃÃÃÃÃ-]",
+                    "minLength": 1,
+                    "maxLength": 254,
+                    "baseType": "STRING"
+                  },
+                  "hidden": false,
+                  "id": 11,
+                  "identification": false,
+                  "personal": true,
+                  "marker": false
+                }
+              }
+            ],
+            "selectionServiceParameters": [],
+            "issueServiceParameters": [],
+            "mandatoryInvoice": false,
+            "multiselection": true,
+            "attributes": [
+              {
+                "name": "BRAND",
+                "values": [
+                  {
+                    "id": 29,
+                    "value": "INTERCITY",
+                    "displayName": "InterCity",
+                    "displayOrder": 5
+                  }
+                ],
+                "status": "OFFERED"
+              },
+              {
+                "name": "TRAIN_CLASSIFICATION",
+                "values": [
+                  {
+                    "id": 32,
+                    "value": "IC",
+                    "displayName": "IC",
+                    "displayOrder": 0
+                  }
+                ],
+                "status": "OFFERED"
+              },
+              {
+                "name": "LEVEL",
+                "values": [
+                  {
+                    "id": 26,
+                    "value": "1Â° Classe",
+                    "displayName": "1st Class",
+                    "displayOrder": 3
+                  }
+                ],
+                "status": "OFFERED"
+              }
+            ],
+            "availableServiceId": 1,
+            "status": "OFFERED"
+          },
+          "available": false,
+          "offersNumber": 0,
+          "providerId": 1
+        },
+        {
+          "catalogService": {
+            "id": 20061,
+            "type": "SEAT",
+            "name": "2 PRENOT. IC",
+            "displayName": "PRENOTAZIONE CARNET 2Âª CLASSE",
+            "descriptionShort": "",
+            "descriptionStandard": "",
+            "descriptionExtended": "",
+            "saleCompany": {
+              "companyName": "Trenitalia",
+              "corporateDesignation": "S.p.A.",
+              "id": "0083",
+              "logoId": 68
+            },
+            "selectionTravellerParameters": [],
+            "issueTravellerParameters": [
+              {
+                "displayName": "NAME",
+                "readOnly": false,
+                "validationMessages": [],
+                "allowedValues": [],
+                "type": {
+                  "validation": true,
+                  "typeDefinition": {
+                    "enumeration": [],
+                    "validationPattern": "[\\u0370-\\u03ff\\u1f00-\\u1fffA-Za-z0-9 'Ã Ã©Ã¨Ã¬Ã²Ã¹Ã¤Ã«Ã¯Ã¶Ã¼Ã§ÃÃÃÃÃÃÃÃÃÃ_-]{1,}",
+                    "inputPattern": "[\\u0370-\\u03ff\\u1f00-\\u1fffA-Za-z 'Ã Ã©Ã¨Ã¬Ã²Ã¹Ã¤Ã«Ã¯Ã¶Ã¼Ã§ÃÃÃÃÃÃÃÃÃÃ-]",
+                    "minLength": 1,
+                    "maxLength": 254,
+                    "baseType": "STRING"
+                  },
+                  "hidden": false,
+                  "id": 10,
+                  "identification": false,
+                  "personal": true,
+                  "marker": false
+                }
+              },
+              {
+                "displayName": "SURNAME",
+                "readOnly": false,
+                "validationMessages": [],
+                "allowedValues": [],
+                "type": {
+                  "validation": true,
+                  "typeDefinition": {
+                    "enumeration": [],
+                    "validationPattern": "[\\u0370-\\u03ff\\u1f00-\\u1fffA-Za-z0-9 'Ã Ã©Ã¨Ã¬Ã²Ã¹Ã¤Ã«Ã¯Ã¶Ã¼Ã§ÃÃÃÃÃÃÃÃÃÃ_-]{1,}",
+                    "inputPattern": "[\\u0370-\\u03ff\\u1f00-\\u1fffA-Za-z 'Ã Ã©Ã¨Ã¬Ã²Ã¹Ã¤Ã«Ã¯Ã¶Ã¼Ã§ÃÃÃÃÃÃÃÃÃÃ-]",
+                    "minLength": 1,
+                    "maxLength": 254,
+                    "baseType": "STRING"
+                  },
+                  "hidden": false,
+                  "id": 11,
+                  "identification": false,
+                  "personal": true,
+                  "marker": false
+                }
+              }
+            ],
+            "selectionServiceParameters": [],
+            "issueServiceParameters": [],
+            "mandatoryInvoice": false,
+            "multiselection": true,
+            "attributes": [
+              {
+                "name": "BRAND",
+                "values": [
+                  {
+                    "id": 29,
+                    "value": "INTERCITY",
+                    "displayName": "InterCity",
+                    "displayOrder": 5
+                  }
+                ],
+                "status": "OFFERED"
+              },
+              {
+                "name": "TRAIN_CLASSIFICATION",
+                "values": [
+                  {
+                    "id": 32,
+                    "value": "IC",
+                    "displayName": "IC",
+                    "displayOrder": 0
+                  }
+                ],
+                "status": "OFFERED"
+              },
+              {
+                "name": "LEVEL",
+                "values": [
+                  {
+                    "id": 27,
+                    "value": "2Â° Classe",
+                    "displayName": "2nd Class",
+                    "displayOrder": 7
+                  }
+                ],
+                "status": "OFFERED"
+              }
+            ],
+            "availableServiceId": 9,
+            "status": "OFFERED"
+          },
+          "available": false,
+          "offersNumber": 0,
+          "providerId": 1
+        },
+        {
+          "catalogService": {
+            "id": 20066,
+            "type": "SEAT",
+            "name": "1 PRENOT. 5 IC",
+            "displayName": "PRENOTAZIONE CARNET 1Âª CLASSE",
+            "descriptionShort": "",
+            "descriptionStandard": "",
+            "descriptionExtended": "",
+            "saleCompany": {
+              "companyName": "Trenitalia",
+              "corporateDesignation": "S.p.A.",
+              "id": "0083",
+              "logoId": 68
+            },
+            "selectionTravellerParameters": [],
+            "issueTravellerParameters": [
+              {
+                "displayName": "NAME",
+                "readOnly": false,
+                "validationMessages": [],
+                "allowedValues": [],
+                "type": {
+                  "validation": true,
+                  "typeDefinition": {
+                    "enumeration": [],
+                    "validationPattern": "[\\u0370-\\u03ff\\u1f00-\\u1fffA-Za-z0-9 'Ã Ã©Ã¨Ã¬Ã²Ã¹Ã¤Ã«Ã¯Ã¶Ã¼Ã§ÃÃÃÃÃÃÃÃÃÃ_-]{1,}",
+                    "inputPattern": "[\\u0370-\\u03ff\\u1f00-\\u1fffA-Za-z 'Ã Ã©Ã¨Ã¬Ã²Ã¹Ã¤Ã«Ã¯Ã¶Ã¼Ã§ÃÃÃÃÃÃÃÃÃÃ-]",
+                    "minLength": 1,
+                    "maxLength": 254,
+                    "baseType": "STRING"
+                  },
+                  "hidden": false,
+                  "id": 10,
+                  "identification": false,
+                  "personal": true,
+                  "marker": false
+                }
+              },
+              {
+                "displayName": "SURNAME",
+                "readOnly": false,
+                "validationMessages": [],
+                "allowedValues": [],
+                "type": {
+                  "validation": true,
+                  "typeDefinition": {
+                    "enumeration": [],
+                    "validationPattern": "[\\u0370-\\u03ff\\u1f00-\\u1fffA-Za-z0-9 'Ã Ã©Ã¨Ã¬Ã²Ã¹Ã¤Ã«Ã¯Ã¶Ã¼Ã§ÃÃÃÃÃÃÃÃÃÃ_-]{1,}",
+                    "inputPattern": "[\\u0370-\\u03ff\\u1f00-\\u1fffA-Za-z 'Ã Ã©Ã¨Ã¬Ã²Ã¹Ã¤Ã«Ã¯Ã¶Ã¼Ã§ÃÃÃÃÃÃÃÃÃÃ-]",
+                    "minLength": 1,
+                    "maxLength": 254,
+                    "baseType": "STRING"
+                  },
+                  "hidden": false,
+                  "id": 11,
+                  "identification": false,
+                  "personal": true,
+                  "marker": false
+                }
+              }
+            ],
+            "selectionServiceParameters": [],
+            "issueServiceParameters": [],
+            "mandatoryInvoice": false,
+            "multiselection": true,
+            "attributes": [
+              {
+                "name": "BRAND",
+                "values": [
+                  {
+                    "id": 29,
+                    "value": "INTERCITY",
+                    "displayName": "InterCity",
+                    "displayOrder": 5
+                  }
+                ],
+                "status": "OFFERED"
+              },
+              {
+                "name": "TRAIN_CLASSIFICATION",
+                "values": [
+                  {
+                    "id": 32,
+                    "value": "IC",
+                    "displayName": "IC",
+                    "displayOrder": 0
+                  }
+                ],
+                "status": "OFFERED"
+              },
+              {
+                "name": "LEVEL",
+                "values": [
+                  {
+                    "id": 26,
+                    "value": "1Â° Classe",
+                    "displayName": "1st Class",
+                    "displayOrder": 3
+                  }
+                ],
+                "status": "OFFERED"
+              }
+            ],
+            "availableServiceId": 1,
+            "status": "OFFERED"
+          },
+          "available": false,
+          "offersNumber": 0,
+          "providerId": 1
+        },
+        {
+          "catalogService": {
+            "id": 20067,
+            "type": "SEAT",
+            "name": "2 PRENOT. 5 IC",
+            "displayName": "PRENOTAZIONE CARNET 2Âª CLASSE",
+            "descriptionShort": "",
+            "descriptionStandard": "",
+            "descriptionExtended": "",
+            "saleCompany": {
+              "companyName": "Trenitalia",
+              "corporateDesignation": "S.p.A.",
+              "id": "0083",
+              "logoId": 68
+            },
+            "selectionTravellerParameters": [],
+            "issueTravellerParameters": [
+              {
+                "displayName": "NAME",
+                "readOnly": false,
+                "validationMessages": [],
+                "allowedValues": [],
+                "type": {
+                  "validation": true,
+                  "typeDefinition": {
+                    "enumeration": [],
+                    "validationPattern": "[\\u0370-\\u03ff\\u1f00-\\u1fffA-Za-z0-9 'Ã Ã©Ã¨Ã¬Ã²Ã¹Ã¤Ã«Ã¯Ã¶Ã¼Ã§ÃÃÃÃÃÃÃÃÃÃ_-]{1,}",
+                    "inputPattern": "[\\u0370-\\u03ff\\u1f00-\\u1fffA-Za-z 'Ã Ã©Ã¨Ã¬Ã²Ã¹Ã¤Ã«Ã¯Ã¶Ã¼Ã§ÃÃÃÃÃÃÃÃÃÃ-]",
+                    "minLength": 1,
+                    "maxLength": 254,
+                    "baseType": "STRING"
+                  },
+                  "hidden": false,
+                  "id": 10,
+                  "identification": false,
+                  "personal": true,
+                  "marker": false
+                }
+              },
+              {
+                "displayName": "SURNAME",
+                "readOnly": false,
+                "validationMessages": [],
+                "allowedValues": [],
+                "type": {
+                  "validation": true,
+                  "typeDefinition": {
+                    "enumeration": [],
+                    "validationPattern": "[\\u0370-\\u03ff\\u1f00-\\u1fffA-Za-z0-9 'Ã Ã©Ã¨Ã¬Ã²Ã¹Ã¤Ã«Ã¯Ã¶Ã¼Ã§ÃÃÃÃÃÃÃÃÃÃ_-]{1,}",
+                    "inputPattern": "[\\u0370-\\u03ff\\u1f00-\\u1fffA-Za-z 'Ã Ã©Ã¨Ã¬Ã²Ã¹Ã¤Ã«Ã¯Ã¶Ã¼Ã§ÃÃÃÃÃÃÃÃÃÃ-]",
+                    "minLength": 1,
+                    "maxLength": 254,
+                    "baseType": "STRING"
+                  },
+                  "hidden": false,
+                  "id": 11,
+                  "identification": false,
+                  "personal": true,
+                  "marker": false
+                }
+              }
+            ],
+            "selectionServiceParameters": [],
+            "issueServiceParameters": [],
+            "mandatoryInvoice": false,
+            "multiselection": true,
+            "attributes": [
+              {
+                "name": "BRAND",
+                "values": [
+                  {
+                    "id": 29,
+                    "value": "INTERCITY",
+                    "displayName": "InterCity",
+                    "displayOrder": 5
+                  }
+                ],
+                "status": "OFFERED"
+              },
+              {
+                "name": "TRAIN_CLASSIFICATION",
+                "values": [
+                  {
+                    "id": 32,
+                    "value": "IC",
+                    "displayName": "IC",
+                    "displayOrder": 0
+                  }
+                ],
+                "status": "OFFERED"
+              },
+              {
+                "name": "LEVEL",
+                "values": [
+                  {
+                    "id": 27,
+                    "value": "2Â° Classe",
+                    "displayName": "2nd Class",
+                    "displayOrder": 7
+                  }
+                ],
+                "status": "OFFERED"
+              }
+            ],
+            "availableServiceId": 9,
+            "status": "OFFERED"
+          },
+          "available": false,
+          "offersNumber": 0,
+          "providerId": 1
+        }
+      ],
+      "price": "39.00",
+      "selectedOffers": [
+        {
+          "xmlId": "x099c8ee7-f58e-4600-bd0d-725c5555f6bb",
+          "status": "SELECTED",
+          "price": "39.00",
+          "availableAmount": 148,
+          "catalogService": {
+            "id": 170,
+            "type": "SEAT",
+            "name": "IC 02 CLASSE",
+            "displayName": "2Âª CLASSE",
+            "descriptionShort": "",
+            "descriptionStandard": "",
+            "descriptionExtended": "",
+            "saleCompany": {
+              "companyName": "Trenitalia",
+              "corporateDesignation": "S.p.A.",
+              "id": "0083",
+              "logoId": 68
+            },
+            "selectionTravellerParameters": [],
+            "issueTravellerParameters": [
+              {
+                "displayName": "NAME",
+                "readOnly": false,
+                "validationMessages": [],
+                "allowedValues": [],
+                "type": {
+                  "validation": true,
+                  "typeDefinition": {
+                    "enumeration": [],
+                    "validationPattern": "[\\u0370-\\u03ff\\u1f00-\\u1fffA-Za-z0-9 'Ã Ã©Ã¨Ã¬Ã²Ã¹Ã¤Ã«Ã¯Ã¶Ã¼Ã§ÃÃÃÃÃÃÃÃÃÃ_-]{1,}",
+                    "inputPattern": "[\\u0370-\\u03ff\\u1f00-\\u1fffA-Za-z 'Ã Ã©Ã¨Ã¬Ã²Ã¹Ã¤Ã«Ã¯Ã¶Ã¼Ã§ÃÃÃÃÃÃÃÃÃÃ-]",
+                    "minLength": 1,
+                    "maxLength": 254,
+                    "baseType": "STRING"
+                  },
+                  "hidden": false,
+                  "id": 10,
+                  "identification": false,
+                  "personal": true,
+                  "marker": false
+                }
+              },
+              {
+                "displayName": "SURNAME",
+                "readOnly": false,
+                "validationMessages": [],
+                "allowedValues": [],
+                "type": {
+                  "validation": true,
+                  "typeDefinition": {
+                    "enumeration": [],
+                    "validationPattern": "[\\u0370-\\u03ff\\u1f00-\\u1fffA-Za-z0-9 'Ã Ã©Ã¨Ã¬Ã²Ã¹Ã¤Ã«Ã¯Ã¶Ã¼Ã§ÃÃÃÃÃÃÃÃÃÃ_-]{1,}",
+                    "inputPattern": "[\\u0370-\\u03ff\\u1f00-\\u1fffA-Za-z 'Ã Ã©Ã¨Ã¬Ã²Ã¹Ã¤Ã«Ã¯Ã¶Ã¼Ã§ÃÃÃÃÃÃÃÃÃÃ-]",
+                    "minLength": 1,
+                    "maxLength": 254,
+                    "baseType": "STRING"
+                  },
+                  "hidden": false,
+                  "id": 11,
+                  "identification": false,
+                  "personal": true,
+                  "marker": false
+                }
+              }
+            ],
+            "selectionServiceParameters": [],
+            "issueServiceParameters": [],
+            "mandatoryInvoice": false,
+            "multiselection": true,
+            "attributes": [
+              {
+                "name": "BRAND",
+                "values": [
+                  {
+                    "id": 29,
+                    "value": "INTERCITY",
+                    "displayName": "InterCity",
+                    "displayOrder": 5
+                  }
+                ],
+                "status": "OFFERED"
+              },
+              {
+                "name": "LEVEL",
+                "values": [
+                  {
+                    "id": 27,
+                    "value": "2Â° Classe",
+                    "displayName": "2nd Class",
+                    "displayOrder": 7
+                  }
+                ],
+                "status": "OFFERED"
+              }
+            ],
+            "availableServiceId": 9,
+            "status": "OFFERED"
+          },
+          "solutionNodeRef": {
+            "type": "SOLUTION_SEGMENT",
+            "idXml": "x0361f4e3-f8b9-490c-9594-c3c47f51be31",
+            "solutionServices": [],
+            "selectedOffers": [],
+            "ancillaries": [],
+            "travellersWithAncillaries": []
+          },
+          "startValidity": "2021-12-10T08:12:00.000Z",
+          "endValidity": "2021-12-13T08:47:00.000Z",
+          "bookingInfo": {
+            "traveller": {
+              "xmlId": "xc90e2eb2-438e-45ae-8d58-a053e6da24b1",
+              "parameters": [
+                {
+                  "displayName": "TRAVELLER TYPE",
+                  "readOnly": false,
+                  "value": "ADULTO",
+                  "valid": true,
+                  "validationMessages": [],
+                  "allowedValues": [],
+                  "type": {
+                    "validation": false,
+                    "typeDefinition": {
+                      "enumeration": [
+                        "ADULTO",
+                        "RAGAZZO",
+                        "ANZIANO",
+                        "ANIMALE"
+                      ],
+                      "baseType": "STRING"
+                    },
+                    "hidden": true,
+                    "id": 15,
+                    "identification": false,
+                    "personal": false,
+                    "marker": false
+                  }
+                }
+              ],
+              "serviceParameters": []
+            },
+            "price": "39.00",
+            "amount": {
+              "amount": "39.00",
+              "currency": "EUR",
+              "showPrice": true
+            },
+            "reportItem": {
+              "eligibilityLevel": "ELIGIBLE"
+            },
+            "providerOptions": []
+          },
+          "parameters": [
+            {
+              "displayName": "",
+              "readOnly": false,
+              "value": "ADULTO",
+              "valid": true,
+              "validationMessages": [],
+              "allowedValues": [],
+              "type": {
+                "validation": false,
+                "typeDefinition": {
+                  "enumeration": [],
+                  "baseType": "STRING"
+                },
+                "hidden": false,
+                "id": 80
+              },
+              "status": "OFFERED"
+            },
+            {
+              "displayName": "Green Pass",
+              "readOnly": false,
+              "value": "Y",
+              "valid": true,
+              "validationMessages": [],
+              "allowedValues": [],
+              "type": {
+                "validation": false,
+                "typeDefinition": {
+                  "enumeration": [],
+                  "baseType": "STRING"
+                },
+                "hidden": true,
+                "id": 296
+              },
+              "status": "OFFERED"
+            }
+          ],
+          "onboardCheck": false,
+          "offerEntity": {
+            "id": 1,
+            "name": "BASE",
+            "displayName": "BASE",
+            "descriptionShort": "Unlimited reservation change allowed, for free, before departure. Partial refund allowed.",
+            "descriptionStandard": "Unlimited booking change allowed before departure for free only in case of a Base ticket's price equal to or less than the one purchased. Partial refund allowed.",
+            "descriptionExtended": " ",
+            "selectionTravellerParameters": [],
+            "issueTravellerParameters": [],
+            "selectionServiceParameters": [],
+            "issueServiceParameters": [],
+            "promotion": false,
+            "roundTrip": false,
+            "offerFamily": "BASE",
+            "attributes": [
+              {
+                "name": "CHECK_CAMBIO",
+                "values": [
+                  "SI"
+                ]
+              },
+              {
+                "name": "CHECK_RIMBORSO",
+                "values": [
+                  "SI"
+                ]
+              },
+              {
+                "name": "CHECK_PROGRAMMA_CF",
+                "values": [
+                  "SI"
+                ]
+              },
+              {
+                "name": "CHECK_MODIFICABILE",
+                "values": [
+                  "SI"
+                ]
+              },
+              {
+                "name": "B2B_OFFER_TYPE",
+                "values": [
+                  "MAIN"
+                ]
+              }
+            ],
+            "priority": 20
+          },
+          "inhibithedMessage": [],
+          "pip": false,
+          "messages": [],
+          "validationEvents": [],
+          "amount": {
+            "amount": "39.00",
+            "currency": "EUR",
+            "showPrice": true
+          },
+          "isEditable": true,
+          "showPrice": true,
+          "offeredServiceAttributes": [],
+          "isSmartcardCreatable": false,
+          "providerId": 1
+        }
+      ],
+      "amount": {
+        "amount": "39.00",
+        "currency": "EUR",
+        "showPrice": true
+      },
+      "ancillaries": [],
+      "travellersWithAncillaries": [],
+      "transitNodes": [
+        {
+          "timezone": "Europe/Rome",
+          "name": "Faenza",
+          "aliases": [],
+          "locationId": 830005058,
+          "visible": true,
+          "geographicCoordinates": {
+            "longitude": 11.883269,
+            "latitude": 44.293536
+          },
+          "attributeValues": [],
+          "bdo": true,
+          "bdoCode": "S05058",
+          "multistation": false,
+          "zonaFrecce": true
+        },
+        {
+          "timezone": "Europe/Rome",
+          "name": "Bologna Centrale",
+          "aliases": [
+            {
+              "name": "BOLOGNA MAIN STATION               \r",
+              "lang": "EN"
+            },
+            {
+              "name": "BOLOGNE GARE CENTRALE              \r",
+              "lang": "FR"
+            },
+            {
+              "name": "BOLOGNA HAUPTBAHNHOF               \r",
+              "lang": "DE"
+            },
+            {
+              "name": "BOLONIA ESTACION CENTRAL           \r",
+              "lang": "ES"
+            }
+          ],
+          "locationId": 830005043,
+          "visible": true,
+          "geographicCoordinates": {
+            "longitude": 11.342267,
+            "latitude": 44.506234
+          },
+          "attributeValues": [],
+          "bdo": true,
+          "bdoCode": "S05043",
+          "multistation": false,
+          "zonaFrecce": true
+        },
+        {
+          "timezone": "Europe/Rome",
+          "name": "Fidenza",
+          "aliases": [],
+          "locationId": 830005009,
+          "visible": true,
+          "geographicCoordinates": {
+            "longitude": 10.063396,
+            "latitude": 44.867733
+          },
+          "attributeValues": [],
+          "bdo": true,
+          "bdoCode": "S05009",
+          "multistation": false,
+          "zonaFrecce": false
+        }
+      ],
+      "commercialDistance": 0,
+      "classificationAcronymsSequence": [
+        "IC"
+      ],
+      "trainLogoInformations": [
+        {
+          "acronym": "IC",
+          "attributes": []
+        }
+      ],
+      "departureTime": "2021-12-10T08:47:00.000Z",
+      "arrivalTime": "2021-12-10T12:40:00.000Z",
+      "physicalDistance": 0,
+      "pricetype": "D",
+      "offeredTransportMeanDeparture": {
+        "name": "604",
+        "denomination": "Intercity",
+        "classification": {
+          "type": "TRAIN",
+          "classification": "Intercity",
+          "acronym": "IC",
+          "id": 12,
+          "uicCode": 63,
+          "uicAbbreviation": "IC"
+        },
+        "id": {
+          "transportOwnerId": "FS_ATAC8300",
+          "routeId": "604"
+        },
+        "trainLogoInformation": {
+          "acronym": "IC",
+          "attributes": []
+        },
+        "date": "2021-12-09T23:00:00.000Z",
+        "xmlId": "x22053e23-6c76-3ba7-bed8-7e290e240f82"
+      },
+      "seatMap": true,
+      "showSeatmapStatus": "OPTIONAL",
+      "seatmapMessages": [],
+      "transportInformations": [],
+      "transportMeanEvents": []
+    }
+  ],
+  "totalPrice": "39.00",
+  "travelSolutionMessages": [],
+  "saleable": true,{"date":"2021-12-09T23:00:00.000Z","id":{"travelSolutionId":1},"state":"NEW","mainTransportTypes":["TRAIN"],"tagValues":[],"xmlId":"x4b4b0378-cfe6-4a9a-9762-63677aa48e45","departurePlace":{"label":"Rimini","tags":["NetworkNode"],"coordinates":{"longitude":12.574098,"latitude":44.064034},"locationId":830005071,"alias":null,"timezone":"Europe/Rome"},"arrivalPlace":{"label":"Milano Centrale","tags":["NetworkNode"],"coordinates":{"longitude":9.204544,"latitude":45.486341},"locationId":830001700,"alias":"MILAN MAIN STATION                 \r","timezone":"Europe/Rome"},"departureLocation":{"timezone":"Europe/Rome","name":"Rimini","aliases":[],"locationId":830005071,"visible":true,"geographicCoordinates":{"longitude":12.574098,"latitude":44.064034},"attributeValues":[],"bdo":true,"bdoCode":"S05071","multistation":false,"zonaFrecce":true},"arrivalLocation":{"timezone":"Europe/Rome","name":"Milano Centrale","aliases":[{"name":"MILAN MAIN STATION                 \r","lang":"EN"},{"name":"MAILAND HAUPTBAHNHOF               \r","lang":"DE"},{"name":"MILAN ESTACION CENTRAL             \r","lang":"ES"},{"name":"MILAN GARE CENTRALE                \r","lang":"FR"}],"locationId":830001700,"visible":true,"geographicCoordinates":{"longitude":9.204544,"latitude":45.486341},"attributeValues":[],"bdo":true,"bdoCode":"S01700","multistation":false,"zonaFrecce":true},"departureTime":"2021-12-10T08:47:00.000Z","arrivalTime":"2021-12-10T12:40:00.000Z","totalDuration":13980000,"transportTypes":["TRAIN"],"classificationAcronyms":["IC"],"classificationAcronymsSequence":["IC"],"solutionNodes":[{"type":"SOLUTION_SEGMENT","idXml":"x0361f4e3-f8b9-490c-9594-c3c47f51be31","startLocation":{"timezone":"Europe/Rome","name":"Rimini","aliases":[],"locationId":830005071,"visible":true,"geographicCoordinates":{"longitude":12.574098,"latitude":44.064034},"attributeValues":[],"bdo":null,"bdoCode":null,"multistation":null,"zonaFrecce":null},"endLocation":{"timezone":"Europe/Rome","name":"Milano Centrale","aliases":[{"name":"MILAN MAIN STATION                 \r","lang":"EN"},{"name":"MAILAND HAUPTBAHNHOF               \r","lang":"DE"},{"name":"MILAN ESTACION CENTRAL             \r","lang":"ES"},{"name":"MILAN GARE CENTRALE                \r","lang":"FR"}],"locationId":830001700,"visible":true,"geographicCoordinates":{"longitude":9.204544,"latitude":45.486341},"attributeValues":[],"bdo":null,"bdoCode":null,"multistation":null,"zonaFrecce":null},"subSegments":[],"solutionServices":[{"catalogService":{"id":298,"type":"ADDITIONAL_SERVICE","name":"ANIMALE-PRENOTABILE","displayName":"Trasporto Animale","descriptionShort":"Medium or large-sized dogs transport service","descriptionStandard":"Medium or large-sized dogs transport service","descriptionExtended":"Medium or large-sized dogs transport service","saleCompany":{"companyName":"Trenitalia","corporateDesignation":"S.p.A.","id":"0083","logoId":68},"selectionTravellerParameters":[],"issueTravellerParameters":[],"selectionServiceParameters":[],"issueServiceParameters":[],"mandatoryInvoice":false,"multiselection":true,"attributes":[],"availableServiceId":223,"status":"OFFERED"},"available":false,"offersNumber":0,"providerId":null},{"catalogService":{"id":158,"type":"SEAT","name":"IC 01 CLASSE","displayName":"1Âª CLASSE","descriptionShort":"","descriptionStandard":"","descriptionExtended":"","saleCompany":{"companyName":"Trenitalia","corporateDesignation":"S.p.A.","id":"0083","logoId":68},"selectionTravellerParameters":[],"issueTravellerParameters":[{"displayName":"NAME","readOnly":false,"validationMessages":[],"allowedValues":[],"type":{"validation":true,"typeDefinition":{"enumeration":[],"validationPattern":"[\\u0370-\\u03ff\\u1f00-\\u1fffA-Za-z0-9 'Ã Ã©Ã¨Ã¬Ã²Ã¹Ã¤Ã«Ã¯Ã¶Ã¼Ã§ÃÃÃÃÃÃÃÃÃÃ_-]{1,}","inputPattern":"[\\u0370-\\u03ff\\u1f00-\\u1fffA-Za-z 'Ã Ã©Ã¨Ã¬Ã²Ã¹Ã¤Ã«Ã¯Ã¶Ã¼Ã§ÃÃÃÃÃÃÃÃÃÃ-]","minLength":1,"maxLength":254,"baseType":"STRING"},"hidden":false,"id":10,"identification":false,"personal":true,"marker":false}},{"displayName":"SURNAME","readOnly":false,"validationMessages":[],"allowedValues":[],"type":{"validation":true,"typeDefinition":{"enumeration":[],"validationPattern":"[\\u0370-\\u03ff\\u1f00-\\u1fffA-Za-z0-9 'Ã Ã©Ã¨Ã¬Ã²Ã¹Ã¤Ã«Ã¯Ã¶Ã¼Ã§ÃÃÃÃÃÃÃÃÃÃ_-]{1,}","inputPattern":"[\\u0370-\\u03ff\\u1f00-\\u1fffA-Za-z 'Ã Ã©Ã¨Ã¬Ã²Ã¹Ã¤Ã«Ã¯Ã¶Ã¼Ã§ÃÃÃÃÃÃÃÃÃÃ-]","minLength":1,"maxLength":254,"baseType":"STRING"},"hidden":false,"id":11,"identification":false,"personal":true,"marker":false}}],"selectionServiceParameters":[],"issueServiceParameters":[],"mandatoryInvoice":false,"multiselection":true,"attributes":[{"name":"BRAND","values":[{"id":29,"value":"INTERCITY","displayName":"InterCity","displayOrder":5}],"status":"OFFERED"},{"name":"LEVEL","values":[{"id":26,"value":"1Â° Classe","displayName":"1st Class","displayOrder":3}],"status":"OFFERED"}],"availableServiceId":1,"status":"OFFERED"},"available":true,"offersNumber":1,"providerId":1},{"catalogService":{"id":170,"type":"SEAT","name":"IC 02 CLASSE","displayName":"2Âª CLASSE","descriptionShort":"","descriptionStandard":"","descriptionExtended":"","saleCompany":{"companyName":"Trenitalia","corporateDesignation":"S.p.A.","id":"0083","logoId":68},"selectionTravellerParameters":[],"issueTravellerParameters":[{"displayName":"NAME","readOnly":false,"validationMessages":[],"allowedValues":[],"type":{"validation":true,"typeDefinition":{"enumeration":[],"validationPattern":"[\\u0370-\\u03ff\\u1f00-\\u1fffA-Za-z0-9 'Ã Ã©Ã¨Ã¬Ã²Ã¹Ã¤Ã«Ã¯Ã¶Ã¼Ã§ÃÃÃÃÃÃÃÃÃÃ_-]{1,}","inputPattern":"[\\u0370-\\u03ff\\u1f00-\\u1fffA-Za-z 'Ã Ã©Ã¨Ã¬Ã²Ã¹Ã¤Ã«Ã¯Ã¶Ã¼Ã§ÃÃÃÃÃÃÃÃÃÃ-]","minLength":1,"maxLength":254,"baseType":"STRING"},"hidden":false,"id":10,"identification":false,"personal":true,"marker":false}},{"displayName":"SURNAME","readOnly":false,"validationMessages":[],"allowedValues":[],"type":{"validation":true,"typeDefinition":{"enumeration":[],"validationPattern":"[\\u0370-\\u03ff\\u1f00-\\u1fffA-Za-z0-9 'Ã Ã©Ã¨Ã¬Ã²Ã¹Ã¤Ã«Ã¯Ã¶Ã¼Ã§ÃÃÃÃÃÃÃÃÃÃ_-]{1,}","inputPattern":"[\\u0370-\\u03ff\\u1f00-\\u1fffA-Za-z 'Ã Ã©Ã¨Ã¬Ã²Ã¹Ã¤Ã«Ã¯Ã¶Ã¼Ã§ÃÃÃÃÃÃÃÃÃÃ-]","minLength":1,"maxLength":254,"baseType":"STRING"},"hidden":false,"id":11,"identification":false,"personal":true,"marker":false}}],"selectionServiceParameters":[],"issueServiceParameters":[],"mandatoryInvoice":false,"multiselection":true,"attributes":[{"name":"BRAND","values":[{"id":29,"value":"INTERCITY","displayName":"InterCity","displayOrder":5}],"status":"OFFERED"},{"name":"LEVEL","values":[{"id":27,"value":"2Â° Classe","displayName":"2nd Class","displayOrder":7}],"status":"OFFERED"}],"availableServiceId":9,"status":"OFFERED"},"available":true,"offersNumber":1,"providerId":1},{"catalogService":{"id":198,"type":"ADDITIONAL_SERVICE","name":"BICICLETTA-PRENOTABILE","displayName":"Bicicletta","descriptionShort":"Bike transport service ","descriptionStandard":"Purchase the service now that allows you to travel with your bike on Intercity trains ","descriptionExtended":"Purchase Trenitaliaâs bike transport service now, allowing you to travel with your bicycle on Intercity trains","saleCompany":{"companyName":"Trenitalia","corporateDesignation":"S.p.A.","id":"0083","logoId":68},"selectionTravellerParameters":[],"issueTravellerParameters":[],"selectionServiceParameters":[],"issueServiceParameters":[],"mandatoryInvoice":false,"multiselection":true,"attributes":[],"availableServiceId":23,"status":"OFFERED"},"available":false,"offersNumber":0,"providerId":1},{"catalogService":{"id":20010,"type":"SEAT","name":"1 PRENOT. IC_EC","displayName":"PRENOTAZIONE CARNET IC 1Âª CLASSE","descriptionShort":"","descriptionStandard":"","descriptionExtended":"","saleCompany":{"companyName":"Trenitalia","corporateDesignation":"S.p.A.","id":"0083","logoId":68},"selectionTravellerParameters":[],"issueTravellerParameters":[{"displayName":"NAME","readOnly":false,"validationMessages":[],"allowedValues":[],"type":{"validation":true,"typeDefinition":{"enumeration":[],"validationPattern":"[\\u0370-\\u03ff\\u1f00-\\u1fffA-Za-z0-9 'Ã Ã©Ã¨Ã¬Ã²Ã¹Ã¤Ã«Ã¯Ã¶Ã¼Ã§ÃÃÃÃÃÃÃÃÃÃ_-]{1,}","inputPattern":"[\\u0370-\\u03ff\\u1f00-\\u1fffA-Za-z 'Ã Ã©Ã¨Ã¬Ã²Ã¹Ã¤Ã«Ã¯Ã¶Ã¼Ã§ÃÃÃÃÃÃÃÃÃÃ-]","minLength":1,"maxLength":254,"baseType":"STRING"},"hidden":false,"id":10,"identification":false,"personal":true,"marker":false}},{"displayName":"SURNAME","readOnly":false,"validationMessages":[],"allowedValues":[],"type":{"validation":true,"typeDefinition":{"enumeration":[],"validationPattern":"[\\u0370-\\u03ff\\u1f00-\\u1fffA-Za-z0-9 'Ã Ã©Ã¨Ã¬Ã²Ã¹Ã¤Ã«Ã¯Ã¶Ã¼Ã§ÃÃÃÃÃÃÃÃÃÃ_-]{1,}","inputPattern":"[\\u0370-\\u03ff\\u1f00-\\u1fffA-Za-z 'Ã Ã©Ã¨Ã¬Ã²Ã¹Ã¤Ã«Ã¯Ã¶Ã¼Ã§ÃÃÃÃÃÃÃÃÃÃ-]","minLength":1,"maxLength":254,"baseType":"STRING"},"hidden":false,"id":11,"identification":false,"personal":true,"marker":false}}],"selectionServiceParameters":[],"issueServiceParameters":[],"mandatoryInvoice":false,"multiselection":true,"attributes":[{"name":"BRAND","values":[{"id":29,"value":"INTERCITY","displayName":"InterCity","displayOrder":5}],"status":"OFFERED"},{"name":"LEVEL","values":[{"id":26,"value":"1Â° Classe","displayName":"1st Class","displayOrder":3}],"status":"OFFERED"},{"name":"TRAIN_CLASSIFICATION","values":[{"id":32,"value":"IC","displayName":"IC","displayOrder":0}],"status":"OFFERED"}],"availableServiceId":1,"status":"OFFERED"},"available":false,"offersNumber":0,"providerId":1},{"catalogService":{"id":20011,"type":"SEAT","name":"2 PRENOT. IC_EC","displayName":"PRENOTAZIONE CARNET IC 2Âª CLASSE","descriptionShort":"","descriptionStandard":"","descriptionExtended":"","saleCompany":{"companyName":"Trenitalia","corporateDesignation":"S.p.A.","id":"0083","logoId":68},"selectionTravellerParameters":[],"issueTravellerParameters":[{"displayName":"NAME","readOnly":false,"validationMessages":[],"allowedValues":[],"type":{"validation":true,"typeDefinition":{"enumeration":[],"validationPattern":"[\\u0370-\\u03ff\\u1f00-\\u1fffA-Za-z0-9 'Ã Ã©Ã¨Ã¬Ã²Ã¹Ã¤Ã«Ã¯Ã¶Ã¼Ã§ÃÃÃÃÃÃÃÃÃÃ_-]{1,}","inputPattern":"[\\u0370-\\u03ff\\u1f00-\\u1fffA-Za-z 'Ã Ã©Ã¨Ã¬Ã²Ã¹Ã¤Ã«Ã¯Ã¶Ã¼Ã§ÃÃÃÃÃÃÃÃÃÃ-]","minLength":1,"maxLength":254,"baseType":"STRING"},"hidden":false,"id":10,"identification":false,"personal":true,"marker":false}},{"displayName":"SURNAME","readOnly":false,"validationMessages":[],"allowedValues":[],"type":{"validation":true,"typeDefinition":{"enumeration":[],"validationPattern":"[\\u0370-\\u03ff\\u1f00-\\u1fffA-Za-z0-9 'Ã Ã©Ã¨Ã¬Ã²Ã¹Ã¤Ã«Ã¯Ã¶Ã¼Ã§ÃÃÃÃÃÃÃÃÃÃ_-]{1,}","inputPattern":"[\\u0370-\\u03ff\\u1f00-\\u1fffA-Za-z 'Ã Ã©Ã¨Ã¬Ã²Ã¹Ã¤Ã«Ã¯Ã¶Ã¼Ã§ÃÃÃÃÃÃÃÃÃÃ-]","minLength":1,"maxLength":254,"baseType":"STRING"},"hidden":false,"id":11,"identification":false,"personal":true,"marker":false}}],"selectionServiceParameters":[],"issueServiceParameters":[],"mandatoryInvoice":false,"multiselection":true,"attributes":[{"name":"BRAND","values":[{"id":29,"value":"INTERCITY","displayName":"InterCity","displayOrder":5}],"status":"OFFERED"},{"name":"LEVEL","values":[{"id":27,"value":"2Â° Classe","displayName":"2nd Class","displayOrder":7}],"status":"OFFERED"},{"name":"TRAIN_CLASSIFICATION","values":[{"id":32,"value":"IC","displayName":"IC","displayOrder":0}],"status":"OFFERED"}],"availableServiceId":9,"status":"OFFERED"},"available":false,"offersNumber":0,"providerId":1},{"catalogService":{"id":20060,"type":"SEAT","name":"1 PRENOT. IC","displayName":"PRENOTAZIONE CARNET 1Âª CLASSE","descriptionShort":"","descriptionStandard":"","descriptionExtended":"","saleCompany":{"companyName":"Trenitalia","corporateDesignation":"S.p.A.","id":"0083","logoId":68},"selectionTravellerParameters":[],"issueTravellerParameters":[{"displayName":"NAME","readOnly":false,"validationMessages":[],"allowedValues":[],"type":{"validation":true,"typeDefinition":{"enumeration":[],"validationPattern":"[\\u0370-\\u03ff\\u1f00-\\u1fffA-Za-z0-9 'Ã Ã©Ã¨Ã¬Ã²Ã¹Ã¤Ã«Ã¯Ã¶Ã¼Ã§ÃÃÃÃÃÃÃÃÃÃ_-]{1,}","inputPattern":"[\\u0370-\\u03ff\\u1f00-\\u1fffA-Za-z 'Ã Ã©Ã¨Ã¬Ã²Ã¹Ã¤Ã«Ã¯Ã¶Ã¼Ã§ÃÃÃÃÃÃÃÃÃÃ-]","minLength":1,"maxLength":254,"baseType":"STRING"},"hidden":false,"id":10,"identification":false,"personal":true,"marker":false}},{"displayName":"SURNAME","readOnly":false,"validationMessages":[],"allowedValues":[],"type":{"validation":true,"typeDefinition":{"enumeration":[],"validationPattern":"[\\u0370-\\u03ff\\u1f00-\\u1fffA-Za-z0-9 'Ã Ã©Ã¨Ã¬Ã²Ã¹Ã¤Ã«Ã¯Ã¶Ã¼Ã§ÃÃÃÃÃÃÃÃÃÃ_-]{1,}","inputPattern":"[\\u0370-\\u03ff\\u1f00-\\u1fffA-Za-z 'Ã Ã©Ã¨Ã¬Ã²Ã¹Ã¤Ã«Ã¯Ã¶Ã¼Ã§ÃÃÃÃÃÃÃÃÃÃ-]","minLength":1,"maxLength":254,"baseType":"STRING"},"hidden":false,"id":11,"identification":false,"personal":true,"marker":false}}],"selectionServiceParameters":[],"issueServiceParameters":[],"mandatoryInvoice":false,"multiselection":true,"attributes":[{"name":"BRAND","values":[{"id":29,"value":"INTERCITY","displayName":"InterCity","displayOrder":5}],"status":"OFFERED"},{"name":"TRAIN_CLASSIFICATION","values":[{"id":32,"value":"IC","displayName":"IC","displayOrder":0}],"status":"OFFERED"},{"name":"LEVEL","values":[{"id":26,"value":"1Â° Classe","displayName":"1st Class","displayOrder":3}],"status":"OFFERED"}],"availableServiceId":1,"status":"OFFERED"},"available":false,"offersNumber":0,"providerId":1},{"catalogService":{"id":20061,"type":"SEAT","name":"2 PRENOT. IC","displayName":"PRENOTAZIONE CARNET 2Âª CLASSE","descriptionShort":"","descriptionStandard":"","descriptionExtended":"","saleCompany":{"companyName":"Trenitalia","corporateDesignation":"S.p.A.","id":"0083","logoId":68},"selectionTravellerParameters":[],"issueTravellerParameters":[{"displayName":"NAME","readOnly":false,"validationMessages":[],"allowedValues":[],"type":{"validation":true,"typeDefinition":{"enumeration":[],"validationPattern":"[\\u0370-\\u03ff\\u1f00-\\u1fffA-Za-z0-9 'Ã Ã©Ã¨Ã¬Ã²Ã¹Ã¤Ã«Ã¯Ã¶Ã¼Ã§ÃÃÃÃÃÃÃÃÃÃ_-]{1,}","inputPattern":"[\\u0370-\\u03ff\\u1f00-\\u1fffA-Za-z 'Ã Ã©Ã¨Ã¬Ã²Ã¹Ã¤Ã«Ã¯Ã¶Ã¼Ã§ÃÃÃÃÃÃÃÃÃÃ-]","minLength":1,"maxLength":254,"baseType":"STRING"},"hidden":false,"id":10,"identification":false,"personal":true,"marker":false}},{"displayName":"SURNAME","readOnly":false,"validationMessages":[],"allowedValues":[],"type":{"validation":true,"typeDefinition":{"enumeration":[],"validationPattern":"[\\u0370-\\u03ff\\u1f00-\\u1fffA-Za-z0-9 'Ã Ã©Ã¨Ã¬Ã²Ã¹Ã¤Ã«Ã¯Ã¶Ã¼Ã§ÃÃÃÃÃÃÃÃÃÃ_-]{1,}","inputPattern":"[\\u0370-\\u03ff\\u1f00-\\u1fffA-Za-z 'Ã Ã©Ã¨Ã¬Ã²Ã¹Ã¤Ã«Ã¯Ã¶Ã¼Ã§ÃÃÃÃÃÃÃÃÃÃ-]","minLength":1,"maxLength":254,"baseType":"STRING"},"hidden":false,"id":11,"identification":false,"personal":true,"marker":false}}],"selectionServiceParameters":[],"issueServiceParameters":[],"mandatoryInvoice":false,"multiselection":true,"attributes":[{"name":"BRAND","values":[{"id":29,"value":"INTERCITY","displayName":"InterCity","displayOrder":5}],"status":"OFFERED"},{"name":"TRAIN_CLASSIFICATION","values":[{"id":32,"value":"IC","displayName":"IC","displayOrder":0}],"status":"OFFERED"},{"name":"LEVEL","values":[{"id":27,"value":"2Â° Classe","displayName":"2nd Class","displayOrder":7}],"status":"OFFERED"}],"availableServiceId":9,"status":"OFFERED"},"available":false,"offersNumber":0,"providerId":1},{"catalogService":{"id":20066,"type":"SEAT","name":"1 PRENOT. 5 IC","displayName":"PRENOTAZIONE CARNET 1Âª CLASSE","descriptionShort":"","descriptionStandard":"","descriptionExtended":"","saleCompany":{"companyName":"Trenitalia","corporateDesignation":"S.p.A.","id":"0083","logoId":68},"selectionTravellerParameters":[],"issueTravellerParameters":[{"displayName":"NAME","readOnly":false,"validationMessages":[],"allowedValues":[],"type":{"validation":true,"typeDefinition":{"enumeration":[],"validationPattern":"[\\u0370-\\u03ff\\u1f00-\\u1fffA-Za-z0-9 'Ã Ã©Ã¨Ã¬Ã²Ã¹Ã¤Ã«Ã¯Ã¶Ã¼Ã§ÃÃÃÃÃÃÃÃÃÃ_-]{1,}","inputPattern":"[\\u0370-\\u03ff\\u1f00-\\u1fffA-Za-z 'Ã Ã©Ã¨Ã¬Ã²Ã¹Ã¤Ã«Ã¯Ã¶Ã¼Ã§ÃÃÃÃÃÃÃÃÃÃ-]","minLength":1,"maxLength":254,"baseType":"STRING"},"hidden":false,"id":10,"identification":false,"personal":true,"marker":false}},{"displayName":"SURNAME","readOnly":false,"validationMessages":[],"allowedValues":[],"type":{"validation":true,"typeDefinition":{"enumeration":[],"validationPattern":"[\\u0370-\\u03ff\\u1f00-\\u1fffA-Za-z0-9 'Ã Ã©Ã¨Ã¬Ã²Ã¹Ã¤Ã«Ã¯Ã¶Ã¼Ã§ÃÃÃÃÃÃÃÃÃÃ_-]{1,}","inputPattern":"[\\u0370-\\u03ff\\u1f00-\\u1fffA-Za-z 'Ã Ã©Ã¨Ã¬Ã²Ã¹Ã¤Ã«Ã¯Ã¶Ã¼Ã§ÃÃÃÃÃÃÃÃÃÃ-]","minLength":1,"maxLength":254,"baseType":"STRING"},"hidden":false,"id":11,"identification":false,"personal":true,"marker":false}}],"selectionServiceParameters":[],"issueServiceParameters":[],"mandatoryInvoice":false,"multiselection":true,"attributes":[{"name":"BRAND","values":[{"id":29,"value":"INTERCITY","displayName":"InterCity","displayOrder":5}],"status":"OFFERED"},{"name":"TRAIN_CLASSIFICATION","values":[{"id":32,"value":"IC","displayName":"IC","displayOrder":0}],"status":"OFFERED"},{"name":"LEVEL","values":[{"id":26,"value":"1Â° Classe","displayName":"1st Class","displayOrder":3}],"status":"OFFERED"}],"availableServiceId":1,"status":"OFFERED"},"available":false,"offersNumber":0,"providerId":1},{"catalogService":{"id":20067,"type":"SEAT","name":"2 PRENOT. 5 IC","displayName":"PRENOTAZIONE CARNET 2Âª CLASSE","descriptionShort":"","descriptionStandard":"","descriptionExtended":"","saleCompany":{"companyName":"Trenitalia","corporateDesignation":"S.p.A.","id":"0083","logoId":68},"selectionTravellerParameters":[],"issueTravellerParameters":[{"displayName":"NAME","readOnly":false,"validationMessages":[],"allowedValues":[],"type":{"validation":true,"typeDefinition":{"enumeration":[],"validationPattern":"[\\u0370-\\u03ff\\u1f00-\\u1fffA-Za-z0-9 'Ã Ã©Ã¨Ã¬Ã²Ã¹Ã¤Ã«Ã¯Ã¶Ã¼Ã§ÃÃÃÃÃÃÃÃÃÃ_-]{1,}","inputPattern":"[\\u0370-\\u03ff\\u1f00-\\u1fffA-Za-z 'Ã Ã©Ã¨Ã¬Ã²Ã¹Ã¤Ã«Ã¯Ã¶Ã¼Ã§ÃÃÃÃÃÃÃÃÃÃ-]","minLength":1,"maxLength":254,"baseType":"STRING"},"hidden":false,"id":10,"identification":false,"personal":true,"marker":false}},{"displayName":"SURNAME","readOnly":false,"validationMessages":[],"allowedValues":[],"type":{"validation":true,"typeDefinition":{"enumeration":[],"validationPattern":"[\\u0370-\\u03ff\\u1f00-\\u1fffA-Za-z0-9 'Ã Ã©Ã¨Ã¬Ã²Ã¹Ã¤Ã«Ã¯Ã¶Ã¼Ã§ÃÃÃÃÃÃÃÃÃÃ_-]{1,}","inputPattern":"[\\u0370-\\u03ff\\u1f00-\\u1fffA-Za-z 'Ã Ã©Ã¨Ã¬Ã²Ã¹Ã¤Ã«Ã¯Ã¶Ã¼Ã§ÃÃÃÃÃÃÃÃÃÃ-]","minLength":1,"maxLength":254,"baseType":"STRING"},"hidden":false,"id":11,"identification":false,"personal":true,"marker":false}}],"selectionServiceParameters":[],"issueServiceParameters":[],"mandatoryInvoice":false,"multiselection":true,"attributes":[{"name":"BRAND","values":[{"id":29,"value":"INTERCITY","displayName":"InterCity","displayOrder":5}],"status":"OFFERED"},{"name":"TRAIN_CLASSIFICATION","values":[{"id":32,"value":"IC","displayName":"IC","displayOrder":0}],"status":"OFFERED"},{"name":"LEVEL","values":[{"id":27,"value":"2Â° Classe","displayName":"2nd Class","displayOrder":7}],"status":"OFFERED"}],"availableServiceId":9,"status":"OFFERED"},"available":false,"offersNumber":0,"providerId":1}],"price":"39.00","selectedOffers":[{"xmlId":"x099c8ee7-f58e-4600-bd0d-725c5555f6bb","status":"SELECTED","price":"39.00","availableAmount":148,"catalogService":{"id":170,"type":"SEAT","name":"IC 02 CLASSE","displayName":"2Âª CLASSE","descriptionShort":"","descriptionStandard":"","descriptionExtended":"","saleCompany":{"companyName":"Trenitalia","corporateDesignation":"S.p.A.","id":"0083","logoId":68},"selectionTravellerParameters":[],"issueTravellerParameters":[{"displayName":"NAME","readOnly":false,"validationMessages":[],"allowedValues":[],"type":{"validation":true,"typeDefinition":{"enumeration":[],"validationPattern":"[\\u0370-\\u03ff\\u1f00-\\u1fffA-Za-z0-9 'Ã Ã©Ã¨Ã¬Ã²Ã¹Ã¤Ã«Ã¯Ã¶Ã¼Ã§ÃÃÃÃÃÃÃÃÃÃ_-]{1,}","inputPattern":"[\\u0370-\\u03ff\\u1f00-\\u1fffA-Za-z 'Ã Ã©Ã¨Ã¬Ã²Ã¹Ã¤Ã«Ã¯Ã¶Ã¼Ã§ÃÃÃÃÃÃÃÃÃÃ-]","minLength":1,"maxLength":254,"baseType":"STRING"},"hidden":false,"id":10,"identification":false,"personal":true,"marker":false}},{"displayName":"SURNAME","readOnly":false,"validationMessages":[],"allowedValues":[],"type":{"validation":true,"typeDefinition":{"enumeration":[],"validationPattern":"[\\u0370-\\u03ff\\u1f00-\\u1fffA-Za-z0-9 'Ã Ã©Ã¨Ã¬Ã²Ã¹Ã¤Ã«Ã¯Ã¶Ã¼Ã§ÃÃÃÃÃÃÃÃÃÃ_-]{1,}","inputPattern":"[\\u0370-\\u03ff\\u1f00-\\u1fffA-Za-z 'Ã Ã©Ã¨Ã¬Ã²Ã¹Ã¤Ã«Ã¯Ã¶Ã¼Ã§ÃÃÃÃÃÃÃÃÃÃ-]","minLength":1,"maxLength":254,"baseType":"STRING"},"hidden":false,"id":11,"identification":false,"personal":true,"marker":false}}],"selectionServiceParameters":[],"issueServiceParameters":[],"mandatoryInvoice":false,"multiselection":true,"attributes":[{"name":"BRAND","values":[{"id":29,"value":"INTERCITY","displayName":"InterCity","displayOrder":5}],"status":"OFFERED"},{"name":"LEVEL","values":[{"id":27,"value":"2Â° Classe","displayName":"2nd Class","displayOrder":7}],"status":"OFFERED"}],"availableServiceId":9,"status":"OFFERED"},"solutionNodeRef":{"type":"SOLUTION_SEGMENT","idXml":"x0361f4e3-f8b9-490c-9594-c3c47f51be31","solutionServices":[],"selectedOffers":[],"ancillaries":[],"travellersWithAncillaries":[]},"startValidity":"2021-12-10T08:12:00.000Z","endValidity":"2021-12-13T08:47:00.000Z","bookingInfo":{"traveller":{"xmlId":"xc90e2eb2-438e-45ae-8d58-a053e6da24b1","parameters":[{"displayName":"TRAVELLER TYPE","readOnly":false,"value":"ADULTO","valid":true,"validationMessages":[],"allowedValues":[],"type":{"validation":false,"typeDefinition":{"enumeration":["ADULTO","RAGAZZO","ANZIANO","ANIMALE"],"baseType":"STRING"},"hidden":true,"id":15,"identification":false,"personal":false,"marker":false}}],"serviceParameters":[]},"price":"39.00","amount":{"amount":"39.00","currency":"EUR","showPrice":true},"reportItem":{"eligibilityLevel":"ELIGIBLE"},"providerOptions":[]},"parameters":[{"displayName":"","readOnly":false,"value":"ADULTO","valid":true,"validationMessages":[],"allowedValues":[],"type":{"validation":false,"typeDefinition":{"enumeration":[],"baseType":"STRING"},"hidden":false,"id":80},"status":"OFFERED"},{"displayName":"Green Pass","readOnly":false,"value":"Y","valid":true,"validationMessages":[],"allowedValues":[],"type":{"validation":false,"typeDefinition":{"enumeration":[],"baseType":"STRING"},"hidden":true,"id":296},"status":"OFFERED"}],"onboardCheck":false,"offerEntity":{"id":1,"name":"BASE","displayName":"BASE","descriptionShort":"Unlimited reservation change allowed, for free, before departure. Partial refund allowed.","descriptionStandard":"Unlimited booking change allowed before departure for free only in case of a Base ticket's price equal to or less than the one purchased. Partial refund allowed.","descriptionExtended":" ","selectionTravellerParameters":[],"issueTravellerParameters":[],"selectionServiceParameters":[],"issueServiceParameters":[],"promotion":false,"roundTrip":false,"offerFamily":"BASE","attributes":[{"name":"CHECK_CAMBIO","values":["SI"]},{"name":"CHECK_RIMBORSO","values":["SI"]},{"name":"CHECK_PROGRAMMA_CF","values":["SI"]},{"name":"CHECK_MODIFICABILE","values":["SI"]},{"name":"B2B_OFFER_TYPE","values":["MAIN"]}],"priority":20},"inhibithedMessage":[],"pip":false,"messages":[],"validationEvents":[],"amount":{"amount":"39.00","currency":"EUR","showPrice":true},"isEditable":true,"showPrice":true,"offeredServiceAttributes":[],"isSmartcardCreatable":false,"providerId":1}],"amount":{"amount":"39.00","currency":"EUR","showPrice":true},"ancillaries":[],"travellersWithAncillaries":[],"transitNodes":[{"timezone":"Europe/Rome","name":"Faenza","aliases":[],"locationId":830005058,"visible":true,"geographicCoordinates":{"longitude":11.883269,"latitude":44.293536},"attributeValues":[],"bdo":true,"bdoCode":"S05058","multistation":false,"zonaFrecce":true},{"timezone":"Europe/Rome","name":"Bologna Centrale","aliases":[{"name":"BOLOGNA MAIN STATION               \r","lang":"EN"},{"name":"BOLOGNE GARE CENTRALE              \r","lang":"FR"},{"name":"BOLOGNA HAUPTBAHNHOF               \r","lang":"DE"},{"name":"BOLONIA ESTACION CENTRAL           \r","lang":"ES"}],"locationId":830005043,"visible":true,"geographicCoordinates":{"longitude":11.342267,"latitude":44.506234},"attributeValues":[],"bdo":true,"bdoCode":"S05043","multistation":false,"zonaFrecce":true},{"timezone":"Europe/Rome","name":"Fidenza","aliases":[],"locationId":830005009,"visible":true,"geographicCoordinates":{"longitude":10.063396,"latitude":44.867733},"attributeValues":[],"bdo":true,"bdoCode":"S05009","multistation":false,"zonaFrecce":false}],"commercialDistance":0,"classificationAcronymsSequence":["IC"],"trainLogoInformations":[{"acronym":"IC","attributes":[]}],"departureTime":"2021-12-10T08:47:00.000Z","arrivalTime":"2021-12-10T12:40:00.000Z","physicalDistance":0,"pricetype":"D","offeredTransportMeanDeparture":{"name":"604","denomination":"Intercity","classification":{"type":"TRAIN","classification":"Intercity","acronym":"IC","id":12,"uicCode":63,"uicAbbreviation":"IC"},"id":{"transportOwnerId":"FS_ATAC8300","routeId":"604"},"trainLogoInformation":{"acronym":"IC","attributes":[]},"date":"2021-12-09T23:00:00.000Z","xmlId":"x22053e23-6c76-3ba7-bed8-7e290e240f82"},"seatMap":true,"showSeatmapStatus":"OPTIONAL","seatmapMessages":[],"transportInformations":[],"transportMeanEvents":[]}],"totalPrice":"39.00","travelSolutionMessages":[],"saleable":true,"saleabilityMessages":[],"showGrid":true,"travellersNumber":1,"soldOut":false,"inhibited":false,"inhibitedMessages":[],"typeDescriptionsKey":[],"saveable":false,"saved":false,"availabilities":[],"totalAmount":{"amount":"39.00","currency":"EUR","showPrice":true},"trainLogoInformations":[{"acronym":"IC","attributes":[]}],"additionalMessages":[]}
+
+"saleabilityMessages": [],
+  "showGrid": true,
+  "travellersNumber": 1,
+  "soldOut": false,
+  "inhibited": false,
+  "inhibitedMessages": [],
+  "typeDescriptionsKey": [],
+  "saveable": false,
+  "saved": false,
+  "availabilities": [],
+  "totalAmount": {
+    "amount": "39.00",
+    "currency": "EUR",
+    "showPrice": true
+  },
+  "trainLogoInformations": [
+    {
+      "acronym": "IC",
+      "attributes": []
+    }
+  ],
+  "additionalMessages": []
+}
