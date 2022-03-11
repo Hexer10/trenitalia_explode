@@ -27,9 +27,11 @@ Future<void> main(List<String> arguments) async {
   print(encoder.convert(transport));
   print('\n\n');
 
+/* CURRENTLY BROKEN --> Error 400: Invalid origin
   print('---GET TIMETABLE---');
   final timetable = await client.trains.getTimetable('Roma', true);
   print(encoder.convert(timetable));
+*/
 
   print('---GET CLOSEST STATION---');
   final closest = await client.trains.getClosest(45.41, 11.91);
