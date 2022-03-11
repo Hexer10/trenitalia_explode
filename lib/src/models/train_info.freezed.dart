@@ -1,5 +1,6 @@
 // coverage:ignore-file
 // GENERATED CODE - DO NOT MODIFY BY HAND
+// ignore_for_file: type=lint
 // ignore_for_file: unused_element, deprecated_member_use, deprecated_member_use_from_same_package, use_function_type_syntax_for_parameters, unnecessary_const, avoid_init_to_null, invalid_override_different_default_values_named, prefer_expression_function_bodies, annotate_overrides, invalid_annotation_target
 
 part of 'train_info.dart';
@@ -243,21 +244,25 @@ class _$_TrainInfo extends _TrainInfo {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
             other is _TrainInfo &&
-            (identical(other.transportMeanName, transportMeanName) ||
-                other.transportMeanName == transportMeanName) &&
-            (identical(other.transportDenomination, transportDenomination) ||
-                other.transportDenomination == transportDenomination) &&
-            (identical(other.startTime, startTime) ||
-                other.startTime == startTime) &&
-            (identical(other.startLocation, startLocation) ||
-                other.startLocation == startLocation) &&
-            (identical(other.endLocation, endLocation) ||
-                other.endLocation == endLocation));
+            const DeepCollectionEquality()
+                .equals(other.transportMeanName, transportMeanName) &&
+            const DeepCollectionEquality()
+                .equals(other.transportDenomination, transportDenomination) &&
+            const DeepCollectionEquality().equals(other.startTime, startTime) &&
+            const DeepCollectionEquality()
+                .equals(other.startLocation, startLocation) &&
+            const DeepCollectionEquality()
+                .equals(other.endLocation, endLocation));
   }
 
   @override
-  int get hashCode => Object.hash(runtimeType, transportMeanName,
-      transportDenomination, startTime, startLocation, endLocation);
+  int get hashCode => Object.hash(
+      runtimeType,
+      const DeepCollectionEquality().hash(transportMeanName),
+      const DeepCollectionEquality().hash(transportDenomination),
+      const DeepCollectionEquality().hash(startTime),
+      const DeepCollectionEquality().hash(startLocation),
+      const DeepCollectionEquality().hash(endLocation));
 
   @JsonKey(ignore: true)
   @override

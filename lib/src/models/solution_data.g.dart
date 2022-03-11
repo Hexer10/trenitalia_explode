@@ -130,12 +130,12 @@ Map<String, dynamic> _$$_AvailabilityToJson(_$_Availability instance) =>
       'color': instance.color,
     };
 
-_$_SolutionDatumId _$$_SolutionDatumIdFromJson(Map<String, dynamic> json) =>
-    _$_SolutionDatumId(
+_$_SolutionId _$$_SolutionIdFromJson(Map<String, dynamic> json) =>
+    _$_SolutionId(
       travelSolutionId: json['travelSolutionId'] as int,
     );
 
-Map<String, dynamic> _$$_SolutionDatumIdToJson(_$_SolutionDatumId instance) =>
+Map<String, dynamic> _$$_SolutionIdToJson(_$_SolutionId instance) =>
     <String, dynamic>{
       'travelSolutionId': instance.travelSolutionId,
     };

@@ -108,7 +108,7 @@ class TrainClient {
     return Location.fromJson(body);
   }
 
-  Future<dynamic> getSolutions(dynamic startLocationId, dynamic endLocationId,
+  Future<SolutionData> getSolutions(dynamic startLocationId, dynamic endLocationId,
       dynamic departureTime, int adultNum, int childNum,
       {String arFlag = 'A',
       String direction = 'A',
@@ -120,10 +120,6 @@ class TrainClient {
     _validateId(endLocationId);
     departureTime = _validateDateTime(departureTime);
     returnDepartureTime = _validateDateTime(returnDepartureTime);
-
-    /*
-    search?&direction=A&frecce=false&regional=false&maxchanges=-1&return_departure_time=2021-12-03T11%3A32%3A23.862Z
-     */
 
     final uri = Uri.https('app.lefrecce.it', '/Channels.AppApi/rest/search', {
       'startlocationid': startLocationId.toString(),

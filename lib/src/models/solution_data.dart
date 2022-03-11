@@ -50,7 +50,7 @@ class SolutionData with _$SolutionData {
     /// Arrival station.
     required DateTime arrivalTime,
 
-    /// Joruney duration in milliseconds.
+    /// Journey duration in milliseconds.
     required int totalDuration,
 
     /// Transport types.
@@ -111,13 +111,13 @@ class Availability with _$Availability {
 }
 
 @freezed
-class SolutionId with _$SolutionDatumId {
+class SolutionId with _$SolutionId {
   const factory SolutionId({
     required int travelSolutionId,
-  }) = _SolutionDatumId;
+  }) = _SolutionId;
 
   factory SolutionId.fromJson(Map<String, dynamic> json) =>
-      _$SolutionDatumIdFromJson(json);
+      _$SolutionIdFromJson(json);
 }
 
 @freezed

@@ -1,5 +1,6 @@
 // coverage:ignore-file
 // GENERATED CODE - DO NOT MODIFY BY HAND
+// ignore_for_file: type=lint
 // ignore_for_file: unused_element, deprecated_member_use, deprecated_member_use_from_same_package, use_function_type_syntax_for_parameters, unnecessary_const, avoid_init_to_null, invalid_override_different_default_values_named, prefer_expression_function_bodies, annotate_overrides, invalid_annotation_target
 
 part of 'station_timetable.dart';
@@ -163,15 +164,17 @@ class _$_StationTimetable implements _StationTimetable {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
             other is _StationTimetable &&
-            (identical(other.lastUpdateISOTime, lastUpdateISOTime) ||
-                other.lastUpdateISOTime == lastUpdateISOTime) &&
+            const DeepCollectionEquality()
+                .equals(other.lastUpdateISOTime, lastUpdateISOTime) &&
             const DeepCollectionEquality().equals(
                 other.transportMeanCaringInformations,
                 transportMeanCaringInformations));
   }
 
   @override
-  int get hashCode => Object.hash(runtimeType, lastUpdateISOTime,
+  int get hashCode => Object.hash(
+      runtimeType,
+      const DeepCollectionEquality().hash(lastUpdateISOTime),
       const DeepCollectionEquality().hash(transportMeanCaringInformations));
 
   @JsonKey(ignore: true)
@@ -658,54 +661,52 @@ class _$_TransportMeanCaringInformation
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
             other is _TransportMeanCaringInformation &&
-            (identical(other.transportName, transportName) ||
-                other.transportName == transportName) &&
-            (identical(other.transportDenomination, transportDenomination) ||
-                other.transportDenomination == transportDenomination) &&
-            (identical(other.startLocation, startLocation) ||
-                other.startLocation == startLocation) &&
-            (identical(other.endLocation, endLocation) ||
-                other.endLocation == endLocation) &&
-            (identical(other.scheduledStartDate, scheduledStartDate) ||
-                other.scheduledStartDate == scheduledStartDate) &&
-            (identical(other.scheduledEndDate, scheduledEndDate) ||
-                other.scheduledEndDate == scheduledEndDate) &&
-            (identical(other.scheduledPlatform, scheduledPlatform) ||
-                other.scheduledPlatform == scheduledPlatform) &&
-            (identical(other.realPlatform, realPlatform) ||
-                other.realPlatform == realPlatform) &&
-            (identical(
-                    other.lastTakeoverDenomination, lastTakeoverDenomination) ||
-                other.lastTakeoverDenomination == lastTakeoverDenomination) &&
-            (identical(other.lastTakeoverTime, lastTakeoverTime) ||
-                other.lastTakeoverTime == lastTakeoverTime) &&
-            (identical(other.delayMinutes, delayMinutes) ||
-                other.delayMinutes == delayMinutes) &&
-            (identical(other.note, note) || other.note == note) &&
-            (identical(other.status, status) || other.status == status) &&
-            (identical(other.statusNew, statusNew) ||
-                other.statusNew == statusNew) &&
-            (identical(other.fastBuy, fastBuy) || other.fastBuy == fastBuy));
+            const DeepCollectionEquality()
+                .equals(other.transportName, transportName) &&
+            const DeepCollectionEquality()
+                .equals(other.transportDenomination, transportDenomination) &&
+            const DeepCollectionEquality()
+                .equals(other.startLocation, startLocation) &&
+            const DeepCollectionEquality()
+                .equals(other.endLocation, endLocation) &&
+            const DeepCollectionEquality()
+                .equals(other.scheduledStartDate, scheduledStartDate) &&
+            const DeepCollectionEquality()
+                .equals(other.scheduledEndDate, scheduledEndDate) &&
+            const DeepCollectionEquality()
+                .equals(other.scheduledPlatform, scheduledPlatform) &&
+            const DeepCollectionEquality()
+                .equals(other.realPlatform, realPlatform) &&
+            const DeepCollectionEquality().equals(
+                other.lastTakeoverDenomination, lastTakeoverDenomination) &&
+            const DeepCollectionEquality()
+                .equals(other.lastTakeoverTime, lastTakeoverTime) &&
+            const DeepCollectionEquality()
+                .equals(other.delayMinutes, delayMinutes) &&
+            const DeepCollectionEquality().equals(other.note, note) &&
+            const DeepCollectionEquality().equals(other.status, status) &&
+            const DeepCollectionEquality().equals(other.statusNew, statusNew) &&
+            const DeepCollectionEquality().equals(other.fastBuy, fastBuy));
   }
 
   @override
   int get hashCode => Object.hash(
       runtimeType,
-      transportName,
-      transportDenomination,
-      startLocation,
-      endLocation,
-      scheduledStartDate,
-      scheduledEndDate,
-      scheduledPlatform,
-      realPlatform,
-      lastTakeoverDenomination,
-      lastTakeoverTime,
-      delayMinutes,
-      note,
-      status,
-      statusNew,
-      fastBuy);
+      const DeepCollectionEquality().hash(transportName),
+      const DeepCollectionEquality().hash(transportDenomination),
+      const DeepCollectionEquality().hash(startLocation),
+      const DeepCollectionEquality().hash(endLocation),
+      const DeepCollectionEquality().hash(scheduledStartDate),
+      const DeepCollectionEquality().hash(scheduledEndDate),
+      const DeepCollectionEquality().hash(scheduledPlatform),
+      const DeepCollectionEquality().hash(realPlatform),
+      const DeepCollectionEquality().hash(lastTakeoverDenomination),
+      const DeepCollectionEquality().hash(lastTakeoverTime),
+      const DeepCollectionEquality().hash(delayMinutes),
+      const DeepCollectionEquality().hash(note),
+      const DeepCollectionEquality().hash(status),
+      const DeepCollectionEquality().hash(statusNew),
+      const DeepCollectionEquality().hash(fastBuy));
 
   @JsonKey(ignore: true)
   @override

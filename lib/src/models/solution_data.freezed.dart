@@ -1,5 +1,6 @@
 // coverage:ignore-file
 // GENERATED CODE - DO NOT MODIFY BY HAND
+// ignore_for_file: type=lint
 // ignore_for_file: unused_element, deprecated_member_use, deprecated_member_use_from_same_package, use_function_type_syntax_for_parameters, unnecessary_const, avoid_init_to_null, invalid_override_different_default_values_named, prefer_expression_function_bodies, annotate_overrides, invalid_annotation_target
 
 part of 'solution_data.dart';
@@ -102,21 +103,52 @@ const $SolutionData = _$SolutionDataTearOff();
 
 /// @nodoc
 mixin _$SolutionData {
+  /// Unknown.
   DateTime get date => throw _privateConstructorUsedError;
+
+  /// Solution id.
   SolutionId get id => throw _privateConstructorUsedError;
+
+  /// Solution state. (eg. "NEW")
   String get state => throw _privateConstructorUsedError;
+
+  /// List of transport types (eg. TRAIN, BUS, ...)
   List<String> get mainTransportTypes => throw _privateConstructorUsedError;
+
+  /// Unknown.
   List<dynamic> get tagValues => throw _privateConstructorUsedError;
+
+  /// Unknown.
   String get xmlId => throw _privateConstructorUsedError;
+
+  /// Departure place (city?).
   Place get departurePlace => throw _privateConstructorUsedError;
+
+  /// Arrival place (city?).
   Place get arrivalPlace => throw _privateConstructorUsedError;
+
+  /// Departure station.
   Location get departureLocation => throw _privateConstructorUsedError;
+
+  /// Arrival station.
   Location get arrivalLocation => throw _privateConstructorUsedError;
+
+  /// Departure station.
   DateTime get departureTime => throw _privateConstructorUsedError;
+
+  /// Arrival station.
   DateTime get arrivalTime => throw _privateConstructorUsedError;
+
+  /// Journey duration in milliseconds.
   int get totalDuration => throw _privateConstructorUsedError;
+
+  /// Transport types.
   List<String> get transportTypes => throw _privateConstructorUsedError;
+
+  /// Train acronyms.
   List<String> get classificationAcronyms => throw _privateConstructorUsedError;
+
+  /// Train acronyms. Unknown the difference from [classificationAcronyms].
   List<String> get classificationAcronymsSequence =>
       throw _privateConstructorUsedError;
   List<SolutionNode> get solutionNodes => throw _privateConstructorUsedError;
@@ -185,7 +217,7 @@ abstract class $SolutionDataCopyWith<$Res> {
       List<TrainLogoInformation> trainLogoInformations,
       List<dynamic> additionalMessages});
 
-  $SolutionDatumIdCopyWith<$Res> get id;
+  $SolutionIdCopyWith<$Res> get id;
   $PlaceCopyWith<$Res> get departurePlace;
   $PlaceCopyWith<$Res> get arrivalPlace;
   $LocationCopyWith<$Res> get departureLocation;
@@ -374,8 +406,8 @@ class _$SolutionDataCopyWithImpl<$Res> implements $SolutionDataCopyWith<$Res> {
   }
 
   @override
-  $SolutionDatumIdCopyWith<$Res> get id {
-    return $SolutionDatumIdCopyWith<$Res>(_value.id, (value) {
+  $SolutionIdCopyWith<$Res> get id {
+    return $SolutionIdCopyWith<$Res>(_value.id, (value) {
       return _then(_value.copyWith(id: value));
     });
   }
@@ -459,7 +491,7 @@ abstract class _$SolutionDataCopyWith<$Res>
       List<dynamic> additionalMessages});
 
   @override
-  $SolutionDatumIdCopyWith<$Res> get id;
+  $SolutionIdCopyWith<$Res> get id;
   @override
   $PlaceCopyWith<$Res> get departurePlace;
   @override
@@ -697,36 +729,68 @@ class _$_SolutionData implements _SolutionData {
       _$$_SolutionDataFromJson(json);
 
   @override
+
+  /// Unknown.
   final DateTime date;
   @override
+
+  /// Solution id.
   final SolutionId id;
   @override
+
+  /// Solution state. (eg. "NEW")
   final String state;
   @override
+
+  /// List of transport types (eg. TRAIN, BUS, ...)
   final List<String> mainTransportTypes;
   @override
+
+  /// Unknown.
   final List<dynamic> tagValues;
   @override
+
+  /// Unknown.
   final String xmlId;
   @override
+
+  /// Departure place (city?).
   final Place departurePlace;
   @override
+
+  /// Arrival place (city?).
   final Place arrivalPlace;
   @override
+
+  /// Departure station.
   final Location departureLocation;
   @override
+
+  /// Arrival station.
   final Location arrivalLocation;
   @override
+
+  /// Departure station.
   final DateTime departureTime;
   @override
+
+  /// Arrival station.
   final DateTime arrivalTime;
   @override
+
+  /// Journey duration in milliseconds.
   final int totalDuration;
   @override
+
+  /// Transport types.
   final List<String> transportTypes;
   @override
+
+  /// Train acronyms.
   final List<String> classificationAcronyms;
   @override
+
+  /// Train acronyms. Unknown the difference from [classificationAcronyms].
   final List<String> classificationAcronymsSequence;
   @override
   final List<SolutionNode> solutionNodes;
@@ -773,27 +837,27 @@ class _$_SolutionData implements _SolutionData {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
             other is _SolutionData &&
-            (identical(other.date, date) || other.date == date) &&
-            (identical(other.id, id) || other.id == id) &&
-            (identical(other.state, state) || other.state == state) &&
+            const DeepCollectionEquality().equals(other.date, date) &&
+            const DeepCollectionEquality().equals(other.id, id) &&
+            const DeepCollectionEquality().equals(other.state, state) &&
             const DeepCollectionEquality()
                 .equals(other.mainTransportTypes, mainTransportTypes) &&
             const DeepCollectionEquality().equals(other.tagValues, tagValues) &&
-            (identical(other.xmlId, xmlId) || other.xmlId == xmlId) &&
-            (identical(other.departurePlace, departurePlace) ||
-                other.departurePlace == departurePlace) &&
-            (identical(other.arrivalPlace, arrivalPlace) ||
-                other.arrivalPlace == arrivalPlace) &&
-            (identical(other.departureLocation, departureLocation) ||
-                other.departureLocation == departureLocation) &&
-            (identical(other.arrivalLocation, arrivalLocation) ||
-                other.arrivalLocation == arrivalLocation) &&
-            (identical(other.departureTime, departureTime) ||
-                other.departureTime == departureTime) &&
-            (identical(other.arrivalTime, arrivalTime) ||
-                other.arrivalTime == arrivalTime) &&
-            (identical(other.totalDuration, totalDuration) ||
-                other.totalDuration == totalDuration) &&
+            const DeepCollectionEquality().equals(other.xmlId, xmlId) &&
+            const DeepCollectionEquality()
+                .equals(other.departurePlace, departurePlace) &&
+            const DeepCollectionEquality()
+                .equals(other.arrivalPlace, arrivalPlace) &&
+            const DeepCollectionEquality()
+                .equals(other.departureLocation, departureLocation) &&
+            const DeepCollectionEquality()
+                .equals(other.arrivalLocation, arrivalLocation) &&
+            const DeepCollectionEquality()
+                .equals(other.departureTime, departureTime) &&
+            const DeepCollectionEquality()
+                .equals(other.arrivalTime, arrivalTime) &&
+            const DeepCollectionEquality()
+                .equals(other.totalDuration, totalDuration) &&
             const DeepCollectionEquality()
                 .equals(other.transportTypes, transportTypes) &&
             const DeepCollectionEquality()
@@ -803,32 +867,28 @@ class _$_SolutionData implements _SolutionData {
                 classificationAcronymsSequence) &&
             const DeepCollectionEquality()
                 .equals(other.solutionNodes, solutionNodes) &&
-            (identical(other.totalPrice, totalPrice) ||
-                other.totalPrice == totalPrice) &&
+            const DeepCollectionEquality()
+                .equals(other.totalPrice, totalPrice) &&
             const DeepCollectionEquality()
                 .equals(other.travelSolutionMessages, travelSolutionMessages) &&
-            (identical(other.saleable, saleable) ||
-                other.saleable == saleable) &&
+            const DeepCollectionEquality().equals(other.saleable, saleable) &&
             const DeepCollectionEquality()
                 .equals(other.saleabilityMessages, saleabilityMessages) &&
-            (identical(other.showGrid, showGrid) ||
-                other.showGrid == showGrid) &&
-            (identical(other.travellersNumber, travellersNumber) ||
-                other.travellersNumber == travellersNumber) &&
-            (identical(other.soldOut, soldOut) || other.soldOut == soldOut) &&
-            (identical(other.inhibited, inhibited) ||
-                other.inhibited == inhibited) &&
+            const DeepCollectionEquality().equals(other.showGrid, showGrid) &&
+            const DeepCollectionEquality()
+                .equals(other.travellersNumber, travellersNumber) &&
+            const DeepCollectionEquality().equals(other.soldOut, soldOut) &&
+            const DeepCollectionEquality().equals(other.inhibited, inhibited) &&
             const DeepCollectionEquality()
                 .equals(other.inhibitedMessages, inhibitedMessages) &&
             const DeepCollectionEquality()
                 .equals(other.typeDescriptionsKey, typeDescriptionsKey) &&
-            (identical(other.saveable, saveable) ||
-                other.saveable == saveable) &&
-            (identical(other.saved, saved) || other.saved == saved) &&
+            const DeepCollectionEquality().equals(other.saveable, saveable) &&
+            const DeepCollectionEquality().equals(other.saved, saved) &&
             const DeepCollectionEquality()
                 .equals(other.availabilities, availabilities) &&
-            (identical(other.totalAmount, totalAmount) ||
-                other.totalAmount == totalAmount) &&
+            const DeepCollectionEquality()
+                .equals(other.totalAmount, totalAmount) &&
             const DeepCollectionEquality()
                 .equals(other.trainLogoInformations, trainLogoInformations) &&
             const DeepCollectionEquality()
@@ -838,37 +898,37 @@ class _$_SolutionData implements _SolutionData {
   @override
   int get hashCode => Object.hashAll([
         runtimeType,
-        date,
-        id,
-        state,
+        const DeepCollectionEquality().hash(date),
+        const DeepCollectionEquality().hash(id),
+        const DeepCollectionEquality().hash(state),
         const DeepCollectionEquality().hash(mainTransportTypes),
         const DeepCollectionEquality().hash(tagValues),
-        xmlId,
-        departurePlace,
-        arrivalPlace,
-        departureLocation,
-        arrivalLocation,
-        departureTime,
-        arrivalTime,
-        totalDuration,
+        const DeepCollectionEquality().hash(xmlId),
+        const DeepCollectionEquality().hash(departurePlace),
+        const DeepCollectionEquality().hash(arrivalPlace),
+        const DeepCollectionEquality().hash(departureLocation),
+        const DeepCollectionEquality().hash(arrivalLocation),
+        const DeepCollectionEquality().hash(departureTime),
+        const DeepCollectionEquality().hash(arrivalTime),
+        const DeepCollectionEquality().hash(totalDuration),
         const DeepCollectionEquality().hash(transportTypes),
         const DeepCollectionEquality().hash(classificationAcronyms),
         const DeepCollectionEquality().hash(classificationAcronymsSequence),
         const DeepCollectionEquality().hash(solutionNodes),
-        totalPrice,
+        const DeepCollectionEquality().hash(totalPrice),
         const DeepCollectionEquality().hash(travelSolutionMessages),
-        saleable,
+        const DeepCollectionEquality().hash(saleable),
         const DeepCollectionEquality().hash(saleabilityMessages),
-        showGrid,
-        travellersNumber,
-        soldOut,
-        inhibited,
+        const DeepCollectionEquality().hash(showGrid),
+        const DeepCollectionEquality().hash(travellersNumber),
+        const DeepCollectionEquality().hash(soldOut),
+        const DeepCollectionEquality().hash(inhibited),
         const DeepCollectionEquality().hash(inhibitedMessages),
         const DeepCollectionEquality().hash(typeDescriptionsKey),
-        saveable,
-        saved,
+        const DeepCollectionEquality().hash(saveable),
+        const DeepCollectionEquality().hash(saved),
         const DeepCollectionEquality().hash(availabilities),
-        totalAmount,
+        const DeepCollectionEquality().hash(totalAmount),
         const DeepCollectionEquality().hash(trainLogoInformations),
         const DeepCollectionEquality().hash(additionalMessages)
       ]);
@@ -924,36 +984,68 @@ abstract class _SolutionData implements SolutionData {
       _$_SolutionData.fromJson;
 
   @override
+
+  /// Unknown.
   DateTime get date;
   @override
+
+  /// Solution id.
   SolutionId get id;
   @override
+
+  /// Solution state. (eg. "NEW")
   String get state;
   @override
+
+  /// List of transport types (eg. TRAIN, BUS, ...)
   List<String> get mainTransportTypes;
   @override
+
+  /// Unknown.
   List<dynamic> get tagValues;
   @override
+
+  /// Unknown.
   String get xmlId;
   @override
+
+  /// Departure place (city?).
   Place get departurePlace;
   @override
+
+  /// Arrival place (city?).
   Place get arrivalPlace;
   @override
+
+  /// Departure station.
   Location get departureLocation;
   @override
+
+  /// Arrival station.
   Location get arrivalLocation;
   @override
+
+  /// Departure station.
   DateTime get departureTime;
   @override
+
+  /// Arrival station.
   DateTime get arrivalTime;
   @override
+
+  /// Journey duration in milliseconds.
   int get totalDuration;
   @override
+
+  /// Transport types.
   List<String> get transportTypes;
   @override
+
+  /// Train acronyms.
   List<String> get classificationAcronyms;
   @override
+
+  /// Train acronyms. Unknown the difference from [classificationAcronyms].
   List<String> get classificationAcronymsSequence;
   @override
   List<SolutionNode> get solutionNodes;
@@ -1211,26 +1303,25 @@ class _$_Place implements _Place {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
             other is _Place &&
-            (identical(other.label, label) || other.label == label) &&
+            const DeepCollectionEquality().equals(other.label, label) &&
             const DeepCollectionEquality().equals(other.tags, tags) &&
-            (identical(other.coordinates, coordinates) ||
-                other.coordinates == coordinates) &&
-            (identical(other.locationId, locationId) ||
-                other.locationId == locationId) &&
-            (identical(other.alias, alias) || other.alias == alias) &&
-            (identical(other.timezone, timezone) ||
-                other.timezone == timezone));
+            const DeepCollectionEquality()
+                .equals(other.coordinates, coordinates) &&
+            const DeepCollectionEquality()
+                .equals(other.locationId, locationId) &&
+            const DeepCollectionEquality().equals(other.alias, alias) &&
+            const DeepCollectionEquality().equals(other.timezone, timezone));
   }
 
   @override
   int get hashCode => Object.hash(
       runtimeType,
-      label,
+      const DeepCollectionEquality().hash(label),
       const DeepCollectionEquality().hash(tags),
-      coordinates,
-      locationId,
-      alias,
-      timezone);
+      const DeepCollectionEquality().hash(coordinates),
+      const DeepCollectionEquality().hash(locationId),
+      const DeepCollectionEquality().hash(alias),
+      const DeepCollectionEquality().hash(timezone));
 
   @JsonKey(ignore: true)
   @override
@@ -1400,12 +1491,15 @@ class _$_Availability implements _Availability {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
             other is _Availability &&
-            (identical(other.message, message) || other.message == message) &&
-            (identical(other.color, color) || other.color == color));
+            const DeepCollectionEquality().equals(other.message, message) &&
+            const DeepCollectionEquality().equals(other.color, color));
   }
 
   @override
-  int get hashCode => Object.hash(runtimeType, message, color);
+  int get hashCode => Object.hash(
+      runtimeType,
+      const DeepCollectionEquality().hash(message),
+      const DeepCollectionEquality().hash(color));
 
   @JsonKey(ignore: true)
   @override
@@ -1435,16 +1529,16 @@ abstract class _Availability implements Availability {
       throw _privateConstructorUsedError;
 }
 
-SolutionId _$SolutionDatumIdFromJson(Map<String, dynamic> json) {
-  return _SolutionDatumId.fromJson(json);
+SolutionId _$SolutionIdFromJson(Map<String, dynamic> json) {
+  return _SolutionId.fromJson(json);
 }
 
 /// @nodoc
-class _$SolutionDatumIdTearOff {
-  const _$SolutionDatumIdTearOff();
+class _$SolutionIdTearOff {
+  const _$SolutionIdTearOff();
 
-  _SolutionDatumId call({required int travelSolutionId}) {
-    return _SolutionDatumId(
+  _SolutionId call({required int travelSolutionId}) {
+    return _SolutionId(
       travelSolutionId: travelSolutionId,
     );
   }
@@ -1455,30 +1549,29 @@ class _$SolutionDatumIdTearOff {
 }
 
 /// @nodoc
-const $SolutionDatumId = _$SolutionDatumIdTearOff();
+const $SolutionId = _$SolutionIdTearOff();
 
 /// @nodoc
-mixin _$SolutionDatumId {
+mixin _$SolutionId {
   int get travelSolutionId => throw _privateConstructorUsedError;
 
   Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
   @JsonKey(ignore: true)
-  $SolutionDatumIdCopyWith<SolutionId> get copyWith =>
+  $SolutionIdCopyWith<SolutionId> get copyWith =>
       throw _privateConstructorUsedError;
 }
 
 /// @nodoc
-abstract class $SolutionDatumIdCopyWith<$Res> {
-  factory $SolutionDatumIdCopyWith(
+abstract class $SolutionIdCopyWith<$Res> {
+  factory $SolutionIdCopyWith(
           SolutionId value, $Res Function(SolutionId) then) =
-      _$SolutionDatumIdCopyWithImpl<$Res>;
+      _$SolutionIdCopyWithImpl<$Res>;
   $Res call({int travelSolutionId});
 }
 
 /// @nodoc
-class _$SolutionDatumIdCopyWithImpl<$Res>
-    implements $SolutionDatumIdCopyWith<$Res> {
-  _$SolutionDatumIdCopyWithImpl(this._value, this._then);
+class _$SolutionIdCopyWithImpl<$Res> implements $SolutionIdCopyWith<$Res> {
+  _$SolutionIdCopyWithImpl(this._value, this._then);
 
   final SolutionId _value;
   // ignore: unused_field
@@ -1498,31 +1591,29 @@ class _$SolutionDatumIdCopyWithImpl<$Res>
 }
 
 /// @nodoc
-abstract class _$SolutionDatumIdCopyWith<$Res>
-    implements $SolutionDatumIdCopyWith<$Res> {
-  factory _$SolutionDatumIdCopyWith(
-          _SolutionDatumId value, $Res Function(_SolutionDatumId) then) =
-      __$SolutionDatumIdCopyWithImpl<$Res>;
+abstract class _$SolutionIdCopyWith<$Res> implements $SolutionIdCopyWith<$Res> {
+  factory _$SolutionIdCopyWith(
+          _SolutionId value, $Res Function(_SolutionId) then) =
+      __$SolutionIdCopyWithImpl<$Res>;
   @override
   $Res call({int travelSolutionId});
 }
 
 /// @nodoc
-class __$SolutionDatumIdCopyWithImpl<$Res>
-    extends _$SolutionDatumIdCopyWithImpl<$Res>
-    implements _$SolutionDatumIdCopyWith<$Res> {
-  __$SolutionDatumIdCopyWithImpl(
-      _SolutionDatumId _value, $Res Function(_SolutionDatumId) _then)
-      : super(_value, (v) => _then(v as _SolutionDatumId));
+class __$SolutionIdCopyWithImpl<$Res> extends _$SolutionIdCopyWithImpl<$Res>
+    implements _$SolutionIdCopyWith<$Res> {
+  __$SolutionIdCopyWithImpl(
+      _SolutionId _value, $Res Function(_SolutionId) _then)
+      : super(_value, (v) => _then(v as _SolutionId));
 
   @override
-  _SolutionDatumId get _value => super._value as _SolutionDatumId;
+  _SolutionId get _value => super._value as _SolutionId;
 
   @override
   $Res call({
     Object? travelSolutionId = freezed,
   }) {
-    return _then(_SolutionDatumId(
+    return _then(_SolutionId(
       travelSolutionId: travelSolutionId == freezed
           ? _value.travelSolutionId
           : travelSolutionId // ignore: cast_nullable_to_non_nullable
@@ -1533,55 +1624,55 @@ class __$SolutionDatumIdCopyWithImpl<$Res>
 
 /// @nodoc
 @JsonSerializable()
-class _$_SolutionDatumId implements _SolutionDatumId {
-  const _$_SolutionDatumId({required this.travelSolutionId});
+class _$_SolutionId implements _SolutionId {
+  const _$_SolutionId({required this.travelSolutionId});
 
-  factory _$_SolutionDatumId.fromJson(Map<String, dynamic> json) =>
-      _$$_SolutionDatumIdFromJson(json);
+  factory _$_SolutionId.fromJson(Map<String, dynamic> json) =>
+      _$$_SolutionIdFromJson(json);
 
   @override
   final int travelSolutionId;
 
   @override
   String toString() {
-    return 'SolutionDatumId(travelSolutionId: $travelSolutionId)';
+    return 'SolutionId(travelSolutionId: $travelSolutionId)';
   }
 
   @override
   bool operator ==(dynamic other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is _SolutionDatumId &&
-            (identical(other.travelSolutionId, travelSolutionId) ||
-                other.travelSolutionId == travelSolutionId));
+            other is _SolutionId &&
+            const DeepCollectionEquality()
+                .equals(other.travelSolutionId, travelSolutionId));
   }
 
   @override
-  int get hashCode => Object.hash(runtimeType, travelSolutionId);
+  int get hashCode => Object.hash(
+      runtimeType, const DeepCollectionEquality().hash(travelSolutionId));
 
   @JsonKey(ignore: true)
   @override
-  _$SolutionDatumIdCopyWith<_SolutionDatumId> get copyWith =>
-      __$SolutionDatumIdCopyWithImpl<_SolutionDatumId>(this, _$identity);
+  _$SolutionIdCopyWith<_SolutionId> get copyWith =>
+      __$SolutionIdCopyWithImpl<_SolutionId>(this, _$identity);
 
   @override
   Map<String, dynamic> toJson() {
-    return _$$_SolutionDatumIdToJson(this);
+    return _$$_SolutionIdToJson(this);
   }
 }
 
-abstract class _SolutionDatumId implements SolutionId {
-  const factory _SolutionDatumId({required int travelSolutionId}) =
-      _$_SolutionDatumId;
+abstract class _SolutionId implements SolutionId {
+  const factory _SolutionId({required int travelSolutionId}) = _$_SolutionId;
 
-  factory _SolutionDatumId.fromJson(Map<String, dynamic> json) =
-      _$_SolutionDatumId.fromJson;
+  factory _SolutionId.fromJson(Map<String, dynamic> json) =
+      _$_SolutionId.fromJson;
 
   @override
   int get travelSolutionId;
   @override
   @JsonKey(ignore: true)
-  _$SolutionDatumIdCopyWith<_SolutionDatumId> get copyWith =>
+  _$SolutionIdCopyWith<_SolutionId> get copyWith =>
       throw _privateConstructorUsedError;
 }
 
@@ -2187,48 +2278,46 @@ class _$_SolutionNode implements _SolutionNode {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
             other is _SolutionNode &&
-            (identical(other.type, type) || other.type == type) &&
-            (identical(other.idXml, idXml) || other.idXml == idXml) &&
-            (identical(other.startLocation, startLocation) ||
-                other.startLocation == startLocation) &&
-            (identical(other.endLocation, endLocation) ||
-                other.endLocation == endLocation) &&
+            const DeepCollectionEquality().equals(other.type, type) &&
+            const DeepCollectionEquality().equals(other.idXml, idXml) &&
+            const DeepCollectionEquality()
+                .equals(other.startLocation, startLocation) &&
+            const DeepCollectionEquality()
+                .equals(other.endLocation, endLocation) &&
             const DeepCollectionEquality()
                 .equals(other.subSegments, subSegments) &&
             const DeepCollectionEquality()
                 .equals(other.solutionServices, solutionServices) &&
-            (identical(other.price, price) || other.price == price) &&
+            const DeepCollectionEquality().equals(other.price, price) &&
             const DeepCollectionEquality()
                 .equals(other.selectedOffers, selectedOffers) &&
-            (identical(other.amount, amount) || other.amount == amount) &&
+            const DeepCollectionEquality().equals(other.amount, amount) &&
             const DeepCollectionEquality()
                 .equals(other.ancillaries, ancillaries) &&
             const DeepCollectionEquality().equals(
                 other.travellersWithAncillaries, travellersWithAncillaries) &&
             const DeepCollectionEquality()
                 .equals(other.transitNodes, transitNodes) &&
-            (identical(other.commercialDistance, commercialDistance) ||
-                other.commercialDistance == commercialDistance) &&
+            const DeepCollectionEquality()
+                .equals(other.commercialDistance, commercialDistance) &&
             const DeepCollectionEquality().equals(
                 other.classificationAcronymsSequence,
                 classificationAcronymsSequence) &&
             const DeepCollectionEquality()
                 .equals(other.trainLogoInformations, trainLogoInformations) &&
-            (identical(other.departureTime, departureTime) ||
-                other.departureTime == departureTime) &&
-            (identical(other.arrivalTime, arrivalTime) ||
-                other.arrivalTime == arrivalTime) &&
-            (identical(other.physicalDistance, physicalDistance) ||
-                other.physicalDistance == physicalDistance) &&
-            (identical(other.pricetype, pricetype) ||
-                other.pricetype == pricetype) &&
-            (identical(other.offeredTransportMeanDeparture,
-                    offeredTransportMeanDeparture) ||
-                other.offeredTransportMeanDeparture ==
-                    offeredTransportMeanDeparture) &&
-            (identical(other.seatMap, seatMap) || other.seatMap == seatMap) &&
-            (identical(other.showSeatmapStatus, showSeatmapStatus) ||
-                other.showSeatmapStatus == showSeatmapStatus) &&
+            const DeepCollectionEquality()
+                .equals(other.departureTime, departureTime) &&
+            const DeepCollectionEquality()
+                .equals(other.arrivalTime, arrivalTime) &&
+            const DeepCollectionEquality()
+                .equals(other.physicalDistance, physicalDistance) &&
+            const DeepCollectionEquality().equals(other.pricetype, pricetype) &&
+            const DeepCollectionEquality().equals(
+                other.offeredTransportMeanDeparture,
+                offeredTransportMeanDeparture) &&
+            const DeepCollectionEquality().equals(other.seatMap, seatMap) &&
+            const DeepCollectionEquality()
+                .equals(other.showSeatmapStatus, showSeatmapStatus) &&
             const DeepCollectionEquality()
                 .equals(other.seatmapMessages, seatmapMessages) &&
             const DeepCollectionEquality()
@@ -2240,28 +2329,28 @@ class _$_SolutionNode implements _SolutionNode {
   @override
   int get hashCode => Object.hashAll([
         runtimeType,
-        type,
-        idXml,
-        startLocation,
-        endLocation,
+        const DeepCollectionEquality().hash(type),
+        const DeepCollectionEquality().hash(idXml),
+        const DeepCollectionEquality().hash(startLocation),
+        const DeepCollectionEquality().hash(endLocation),
         const DeepCollectionEquality().hash(subSegments),
         const DeepCollectionEquality().hash(solutionServices),
-        price,
+        const DeepCollectionEquality().hash(price),
         const DeepCollectionEquality().hash(selectedOffers),
-        amount,
+        const DeepCollectionEquality().hash(amount),
         const DeepCollectionEquality().hash(ancillaries),
         const DeepCollectionEquality().hash(travellersWithAncillaries),
         const DeepCollectionEquality().hash(transitNodes),
-        commercialDistance,
+        const DeepCollectionEquality().hash(commercialDistance),
         const DeepCollectionEquality().hash(classificationAcronymsSequence),
         const DeepCollectionEquality().hash(trainLogoInformations),
-        departureTime,
-        arrivalTime,
-        physicalDistance,
-        pricetype,
-        offeredTransportMeanDeparture,
-        seatMap,
-        showSeatmapStatus,
+        const DeepCollectionEquality().hash(departureTime),
+        const DeepCollectionEquality().hash(arrivalTime),
+        const DeepCollectionEquality().hash(physicalDistance),
+        const DeepCollectionEquality().hash(pricetype),
+        const DeepCollectionEquality().hash(offeredTransportMeanDeparture),
+        const DeepCollectionEquality().hash(seatMap),
+        const DeepCollectionEquality().hash(showSeatmapStatus),
         const DeepCollectionEquality().hash(seatmapMessages),
         const DeepCollectionEquality().hash(transportInformations),
         const DeepCollectionEquality().hash(transportMeanEvents)
@@ -2507,15 +2596,17 @@ class _$_Amount implements _Amount {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
             other is _Amount &&
-            (identical(other.amount, amount) || other.amount == amount) &&
-            (identical(other.currency, currency) ||
-                other.currency == currency) &&
-            (identical(other.showPrice, showPrice) ||
-                other.showPrice == showPrice));
+            const DeepCollectionEquality().equals(other.amount, amount) &&
+            const DeepCollectionEquality().equals(other.currency, currency) &&
+            const DeepCollectionEquality().equals(other.showPrice, showPrice));
   }
 
   @override
-  int get hashCode => Object.hash(runtimeType, amount, currency, showPrice);
+  int get hashCode => Object.hash(
+      runtimeType,
+      const DeepCollectionEquality().hash(amount),
+      const DeepCollectionEquality().hash(currency),
+      const DeepCollectionEquality().hash(showPrice));
 
   @JsonKey(ignore: true)
   @override
@@ -2817,21 +2908,28 @@ class _$_OfferedTransportMeanDeparture
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
             other is _OfferedTransportMeanDeparture &&
-            (identical(other.name, name) || other.name == name) &&
-            (identical(other.denomination, denomination) ||
-                other.denomination == denomination) &&
-            (identical(other.classification, classification) ||
-                other.classification == classification) &&
-            (identical(other.id, id) || other.id == id) &&
-            (identical(other.trainLogoInformation, trainLogoInformation) ||
-                other.trainLogoInformation == trainLogoInformation) &&
-            (identical(other.date, date) || other.date == date) &&
-            (identical(other.xmlId, xmlId) || other.xmlId == xmlId));
+            const DeepCollectionEquality().equals(other.name, name) &&
+            const DeepCollectionEquality()
+                .equals(other.denomination, denomination) &&
+            const DeepCollectionEquality()
+                .equals(other.classification, classification) &&
+            const DeepCollectionEquality().equals(other.id, id) &&
+            const DeepCollectionEquality()
+                .equals(other.trainLogoInformation, trainLogoInformation) &&
+            const DeepCollectionEquality().equals(other.date, date) &&
+            const DeepCollectionEquality().equals(other.xmlId, xmlId));
   }
 
   @override
-  int get hashCode => Object.hash(runtimeType, name, denomination,
-      classification, id, trainLogoInformation, date, xmlId);
+  int get hashCode => Object.hash(
+      runtimeType,
+      const DeepCollectionEquality().hash(name),
+      const DeepCollectionEquality().hash(denomination),
+      const DeepCollectionEquality().hash(classification),
+      const DeepCollectionEquality().hash(id),
+      const DeepCollectionEquality().hash(trainLogoInformation),
+      const DeepCollectionEquality().hash(date),
+      const DeepCollectionEquality().hash(xmlId));
 
   @JsonKey(ignore: true)
   @override
@@ -3020,13 +3118,16 @@ class _$_OfferedTransportMeanDepartureId
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
             other is _OfferedTransportMeanDepartureId &&
-            (identical(other.transportOwnerId, transportOwnerId) ||
-                other.transportOwnerId == transportOwnerId) &&
-            (identical(other.routeId, routeId) || other.routeId == routeId));
+            const DeepCollectionEquality()
+                .equals(other.transportOwnerId, transportOwnerId) &&
+            const DeepCollectionEquality().equals(other.routeId, routeId));
   }
 
   @override
-  int get hashCode => Object.hash(runtimeType, transportOwnerId, routeId);
+  int get hashCode => Object.hash(
+      runtimeType,
+      const DeepCollectionEquality().hash(transportOwnerId),
+      const DeepCollectionEquality().hash(routeId));
 
   @JsonKey(ignore: true)
   @override
@@ -3612,71 +3713,70 @@ class _$_SelectedOffer implements _SelectedOffer {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
             other is _SelectedOffer &&
-            (identical(other.xmlId, xmlId) || other.xmlId == xmlId) &&
-            (identical(other.status, status) || other.status == status) &&
-            (identical(other.price, price) || other.price == price) &&
-            (identical(other.availableAmount, availableAmount) ||
-                other.availableAmount == availableAmount) &&
-            (identical(other.catalogService, catalogService) ||
-                other.catalogService == catalogService) &&
-            (identical(other.solutionNodeRef, solutionNodeRef) ||
-                other.solutionNodeRef == solutionNodeRef) &&
-            (identical(other.startValidity, startValidity) ||
-                other.startValidity == startValidity) &&
-            (identical(other.endValidity, endValidity) ||
-                other.endValidity == endValidity) &&
-            (identical(other.bookingInfo, bookingInfo) ||
-                other.bookingInfo == bookingInfo) &&
+            const DeepCollectionEquality().equals(other.xmlId, xmlId) &&
+            const DeepCollectionEquality().equals(other.status, status) &&
+            const DeepCollectionEquality().equals(other.price, price) &&
+            const DeepCollectionEquality()
+                .equals(other.availableAmount, availableAmount) &&
+            const DeepCollectionEquality()
+                .equals(other.catalogService, catalogService) &&
+            const DeepCollectionEquality()
+                .equals(other.solutionNodeRef, solutionNodeRef) &&
+            const DeepCollectionEquality()
+                .equals(other.startValidity, startValidity) &&
+            const DeepCollectionEquality()
+                .equals(other.endValidity, endValidity) &&
+            const DeepCollectionEquality()
+                .equals(other.bookingInfo, bookingInfo) &&
             const DeepCollectionEquality()
                 .equals(other.parameters, parameters) &&
-            (identical(other.onboardCheck, onboardCheck) ||
-                other.onboardCheck == onboardCheck) &&
-            (identical(other.offerEntity, offerEntity) ||
-                other.offerEntity == offerEntity) &&
+            const DeepCollectionEquality()
+                .equals(other.onboardCheck, onboardCheck) &&
+            const DeepCollectionEquality()
+                .equals(other.offerEntity, offerEntity) &&
             const DeepCollectionEquality()
                 .equals(other.inhibithedMessage, inhibithedMessage) &&
-            (identical(other.pip, pip) || other.pip == pip) &&
+            const DeepCollectionEquality().equals(other.pip, pip) &&
             const DeepCollectionEquality().equals(other.messages, messages) &&
             const DeepCollectionEquality()
                 .equals(other.validationEvents, validationEvents) &&
-            (identical(other.amount, amount) || other.amount == amount) &&
-            (identical(other.isEditable, isEditable) ||
-                other.isEditable == isEditable) &&
-            (identical(other.showPrice, showPrice) ||
-                other.showPrice == showPrice) &&
+            const DeepCollectionEquality().equals(other.amount, amount) &&
+            const DeepCollectionEquality()
+                .equals(other.isEditable, isEditable) &&
+            const DeepCollectionEquality().equals(other.showPrice, showPrice) &&
             const DeepCollectionEquality().equals(
                 other.offeredServiceAttributes, offeredServiceAttributes) &&
-            (identical(other.isSmartcardCreatable, isSmartcardCreatable) ||
-                other.isSmartcardCreatable == isSmartcardCreatable) &&
-            (identical(other.providerId, providerId) ||
-                other.providerId == providerId));
+            const DeepCollectionEquality()
+                .equals(other.isSmartcardCreatable, isSmartcardCreatable) &&
+            const DeepCollectionEquality()
+                .equals(other.providerId, providerId));
   }
 
   @override
   int get hashCode => Object.hashAll([
         runtimeType,
-        xmlId,
-        status,
-        price,
-        availableAmount,
-        catalogService,
-        solutionNodeRef,
-        startValidity,
-        endValidity,
-        bookingInfo,
+        const DeepCollectionEquality().hash(xmlId),
+        const DeepCollectionEquality().hash(status),
+        const DeepCollectionEquality().hash(price),
+        const DeepCollectionEquality().hash(availableAmount),
+        const DeepCollectionEquality().hash(catalogService),
+        const DeepCollectionEquality().hash(solutionNodeRef),
+        const DeepCollectionEquality().hash(startValidity),
+        const DeepCollectionEquality().hash(endValidity),
+        const DeepCollectionEquality().hash(bookingInfo),
         const DeepCollectionEquality().hash(parameters),
-        onboardCheck,
-        offerEntity,
+        const DeepCollectionEquality().hash(onboardCheck),
+        const DeepCollectionEquality().hash(offerEntity),
         const DeepCollectionEquality().hash(inhibithedMessage),
-        pip,
+        const DeepCollectionEquality().hash(pip),
         const DeepCollectionEquality().hash(messages),
         const DeepCollectionEquality().hash(validationEvents),
-        amount,
-        isEditable,
-        showPrice,
+        const DeepCollectionEquality().hash(amount),
+        const DeepCollectionEquality().hash(isEditable),
+        const DeepCollectionEquality().hash(showPrice),
         const DeepCollectionEquality().hash(offeredServiceAttributes),
-        isSmartcardCreatable,
-        providerId
+        const DeepCollectionEquality().hash(isSmartcardCreatable),
+        const DeepCollectionEquality().hash(providerId)
       ]);
 
   @JsonKey(ignore: true)
@@ -3991,19 +4091,23 @@ class _$_BookingInfo implements _BookingInfo {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
             other is _BookingInfo &&
-            (identical(other.traveller, traveller) ||
-                other.traveller == traveller) &&
-            (identical(other.price, price) || other.price == price) &&
-            (identical(other.amount, amount) || other.amount == amount) &&
-            (identical(other.reportItem, reportItem) ||
-                other.reportItem == reportItem) &&
+            const DeepCollectionEquality().equals(other.traveller, traveller) &&
+            const DeepCollectionEquality().equals(other.price, price) &&
+            const DeepCollectionEquality().equals(other.amount, amount) &&
+            const DeepCollectionEquality()
+                .equals(other.reportItem, reportItem) &&
             const DeepCollectionEquality()
                 .equals(other.providerOptions, providerOptions));
   }
 
   @override
-  int get hashCode => Object.hash(runtimeType, traveller, price, amount,
-      reportItem, const DeepCollectionEquality().hash(providerOptions));
+  int get hashCode => Object.hash(
+      runtimeType,
+      const DeepCollectionEquality().hash(traveller),
+      const DeepCollectionEquality().hash(price),
+      const DeepCollectionEquality().hash(amount),
+      const DeepCollectionEquality().hash(reportItem),
+      const DeepCollectionEquality().hash(providerOptions));
 
   @JsonKey(ignore: true)
   @override
@@ -4157,12 +4261,13 @@ class _$_ReportItem implements _ReportItem {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
             other is _ReportItem &&
-            (identical(other.eligibilityLevel, eligibilityLevel) ||
-                other.eligibilityLevel == eligibilityLevel));
+            const DeepCollectionEquality()
+                .equals(other.eligibilityLevel, eligibilityLevel));
   }
 
   @override
-  int get hashCode => Object.hash(runtimeType, eligibilityLevel);
+  int get hashCode => Object.hash(
+      runtimeType, const DeepCollectionEquality().hash(eligibilityLevel));
 
   @JsonKey(ignore: true)
   @override
@@ -4341,7 +4446,7 @@ class _$_Traveller implements _Traveller {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
             other is _Traveller &&
-            (identical(other.xmlId, xmlId) || other.xmlId == xmlId) &&
+            const DeepCollectionEquality().equals(other.xmlId, xmlId) &&
             const DeepCollectionEquality()
                 .equals(other.parameters, parameters) &&
             const DeepCollectionEquality()
@@ -4351,7 +4456,7 @@ class _$_Traveller implements _Traveller {
   @override
   int get hashCode => Object.hash(
       runtimeType,
-      xmlId,
+      const DeepCollectionEquality().hash(xmlId),
       const DeepCollectionEquality().hash(parameters),
       const DeepCollectionEquality().hash(serviceParameters));
 
@@ -4628,29 +4733,28 @@ class _$_TravellerParameter implements _TravellerParameter {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
             other is _TravellerParameter &&
-            (identical(other.displayName, displayName) ||
-                other.displayName == displayName) &&
-            (identical(other.readOnly, readOnly) ||
-                other.readOnly == readOnly) &&
-            (identical(other.value, value) || other.value == value) &&
-            (identical(other.valid, valid) || other.valid == valid) &&
+            const DeepCollectionEquality()
+                .equals(other.displayName, displayName) &&
+            const DeepCollectionEquality().equals(other.readOnly, readOnly) &&
+            const DeepCollectionEquality().equals(other.value, value) &&
+            const DeepCollectionEquality().equals(other.valid, valid) &&
             const DeepCollectionEquality()
                 .equals(other.validationMessages, validationMessages) &&
             const DeepCollectionEquality()
                 .equals(other.allowedValues, allowedValues) &&
-            (identical(other.type, type) || other.type == type));
+            const DeepCollectionEquality().equals(other.type, type));
   }
 
   @override
   int get hashCode => Object.hash(
       runtimeType,
-      displayName,
-      readOnly,
-      value,
-      valid,
+      const DeepCollectionEquality().hash(displayName),
+      const DeepCollectionEquality().hash(readOnly),
+      const DeepCollectionEquality().hash(value),
+      const DeepCollectionEquality().hash(valid),
       const DeepCollectionEquality().hash(validationMessages),
       const DeepCollectionEquality().hash(allowedValues),
-      type);
+      const DeepCollectionEquality().hash(type));
 
   @JsonKey(ignore: true)
   @override
@@ -4939,22 +5043,28 @@ class _$_TravellerType implements _TravellerType {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
             other is _TravellerType &&
-            (identical(other.validation, validation) ||
-                other.validation == validation) &&
-            (identical(other.typeDefinition, typeDefinition) ||
-                other.typeDefinition == typeDefinition) &&
-            (identical(other.hidden, hidden) || other.hidden == hidden) &&
-            (identical(other.id, id) || other.id == id) &&
-            (identical(other.identification, identification) ||
-                other.identification == identification) &&
-            (identical(other.personal, personal) ||
-                other.personal == personal) &&
-            (identical(other.marker, marker) || other.marker == marker));
+            const DeepCollectionEquality()
+                .equals(other.validation, validation) &&
+            const DeepCollectionEquality()
+                .equals(other.typeDefinition, typeDefinition) &&
+            const DeepCollectionEquality().equals(other.hidden, hidden) &&
+            const DeepCollectionEquality().equals(other.id, id) &&
+            const DeepCollectionEquality()
+                .equals(other.identification, identification) &&
+            const DeepCollectionEquality().equals(other.personal, personal) &&
+            const DeepCollectionEquality().equals(other.marker, marker));
   }
 
   @override
-  int get hashCode => Object.hash(runtimeType, validation, typeDefinition,
-      hidden, id, identification, personal, marker);
+  int get hashCode => Object.hash(
+      runtimeType,
+      const DeepCollectionEquality().hash(validation),
+      const DeepCollectionEquality().hash(typeDefinition),
+      const DeepCollectionEquality().hash(hidden),
+      const DeepCollectionEquality().hash(id),
+      const DeepCollectionEquality().hash(identification),
+      const DeepCollectionEquality().hash(personal),
+      const DeepCollectionEquality().hash(marker));
 
   @JsonKey(ignore: true)
   @override
@@ -5137,13 +5247,14 @@ class _$_TravellerTypeDefinition implements _TravellerTypeDefinition {
             other is _TravellerTypeDefinition &&
             const DeepCollectionEquality()
                 .equals(other.enumeration, enumeration) &&
-            (identical(other.baseType, baseType) ||
-                other.baseType == baseType));
+            const DeepCollectionEquality().equals(other.baseType, baseType));
   }
 
   @override
   int get hashCode => Object.hash(
-      runtimeType, const DeepCollectionEquality().hash(enumeration), baseType);
+      runtimeType,
+      const DeepCollectionEquality().hash(enumeration),
+      const DeepCollectionEquality().hash(baseType));
 
   @JsonKey(ignore: true)
   @override
@@ -5601,19 +5712,19 @@ class _$_CatalogService implements _CatalogService {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
             other is _CatalogService &&
-            (identical(other.id, id) || other.id == id) &&
-            (identical(other.type, type) || other.type == type) &&
-            (identical(other.name, name) || other.name == name) &&
-            (identical(other.displayName, displayName) ||
-                other.displayName == displayName) &&
-            (identical(other.descriptionShort, descriptionShort) ||
-                other.descriptionShort == descriptionShort) &&
-            (identical(other.descriptionStandard, descriptionStandard) ||
-                other.descriptionStandard == descriptionStandard) &&
-            (identical(other.descriptionExtended, descriptionExtended) ||
-                other.descriptionExtended == descriptionExtended) &&
-            (identical(other.saleCompany, saleCompany) ||
-                other.saleCompany == saleCompany) &&
+            const DeepCollectionEquality().equals(other.id, id) &&
+            const DeepCollectionEquality().equals(other.type, type) &&
+            const DeepCollectionEquality().equals(other.name, name) &&
+            const DeepCollectionEquality()
+                .equals(other.displayName, displayName) &&
+            const DeepCollectionEquality()
+                .equals(other.descriptionShort, descriptionShort) &&
+            const DeepCollectionEquality()
+                .equals(other.descriptionStandard, descriptionStandard) &&
+            const DeepCollectionEquality()
+                .equals(other.descriptionExtended, descriptionExtended) &&
+            const DeepCollectionEquality()
+                .equals(other.saleCompany, saleCompany) &&
             const DeepCollectionEquality().equals(
                 other.selectionTravellerParameters,
                 selectionTravellerParameters) &&
@@ -5623,37 +5734,37 @@ class _$_CatalogService implements _CatalogService {
                 other.selectionServiceParameters, selectionServiceParameters) &&
             const DeepCollectionEquality()
                 .equals(other.issueServiceParameters, issueServiceParameters) &&
-            (identical(other.mandatoryInvoice, mandatoryInvoice) ||
-                other.mandatoryInvoice == mandatoryInvoice) &&
-            (identical(other.multiselection, multiselection) ||
-                other.multiselection == multiselection) &&
+            const DeepCollectionEquality()
+                .equals(other.mandatoryInvoice, mandatoryInvoice) &&
+            const DeepCollectionEquality()
+                .equals(other.multiselection, multiselection) &&
             const DeepCollectionEquality()
                 .equals(other.attributes, attributes) &&
-            (identical(other.availableServiceId, availableServiceId) ||
-                other.availableServiceId == availableServiceId) &&
-            (identical(other.status, status) || other.status == status));
+            const DeepCollectionEquality()
+                .equals(other.availableServiceId, availableServiceId) &&
+            const DeepCollectionEquality().equals(other.status, status));
   }
 
   @override
   int get hashCode => Object.hash(
       runtimeType,
-      id,
-      type,
-      name,
-      displayName,
-      descriptionShort,
-      descriptionStandard,
-      descriptionExtended,
-      saleCompany,
+      const DeepCollectionEquality().hash(id),
+      const DeepCollectionEquality().hash(type),
+      const DeepCollectionEquality().hash(name),
+      const DeepCollectionEquality().hash(displayName),
+      const DeepCollectionEquality().hash(descriptionShort),
+      const DeepCollectionEquality().hash(descriptionStandard),
+      const DeepCollectionEquality().hash(descriptionExtended),
+      const DeepCollectionEquality().hash(saleCompany),
       const DeepCollectionEquality().hash(selectionTravellerParameters),
       const DeepCollectionEquality().hash(issueTravellerParameters),
       const DeepCollectionEquality().hash(selectionServiceParameters),
       const DeepCollectionEquality().hash(issueServiceParameters),
-      mandatoryInvoice,
-      multiselection,
+      const DeepCollectionEquality().hash(mandatoryInvoice),
+      const DeepCollectionEquality().hash(multiselection),
       const DeepCollectionEquality().hash(attributes),
-      availableServiceId,
-      status);
+      const DeepCollectionEquality().hash(availableServiceId),
+      const DeepCollectionEquality().hash(status));
 
   @JsonKey(ignore: true)
   @override
@@ -5880,14 +5991,17 @@ class _$_CatalogServiceAttribute implements _CatalogServiceAttribute {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
             other is _CatalogServiceAttribute &&
-            (identical(other.name, name) || other.name == name) &&
+            const DeepCollectionEquality().equals(other.name, name) &&
             const DeepCollectionEquality().equals(other.values, values) &&
-            (identical(other.status, status) || other.status == status));
+            const DeepCollectionEquality().equals(other.status, status));
   }
 
   @override
   int get hashCode => Object.hash(
-      runtimeType, name, const DeepCollectionEquality().hash(values), status);
+      runtimeType,
+      const DeepCollectionEquality().hash(name),
+      const DeepCollectionEquality().hash(values),
+      const DeepCollectionEquality().hash(status));
 
   @JsonKey(ignore: true)
   @override
@@ -6086,17 +6200,21 @@ class _$_ValueClass implements _ValueClass {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
             other is _ValueClass &&
-            (identical(other.id, id) || other.id == id) &&
-            (identical(other.value, value) || other.value == value) &&
-            (identical(other.displayName, displayName) ||
-                other.displayName == displayName) &&
-            (identical(other.displayOrder, displayOrder) ||
-                other.displayOrder == displayOrder));
+            const DeepCollectionEquality().equals(other.id, id) &&
+            const DeepCollectionEquality().equals(other.value, value) &&
+            const DeepCollectionEquality()
+                .equals(other.displayName, displayName) &&
+            const DeepCollectionEquality()
+                .equals(other.displayOrder, displayOrder));
   }
 
   @override
-  int get hashCode =>
-      Object.hash(runtimeType, id, value, displayName, displayOrder);
+  int get hashCode => Object.hash(
+      runtimeType,
+      const DeepCollectionEquality().hash(id),
+      const DeepCollectionEquality().hash(value),
+      const DeepCollectionEquality().hash(displayName),
+      const DeepCollectionEquality().hash(displayOrder));
 
   @JsonKey(ignore: true)
   @override
@@ -6357,27 +6475,26 @@ class _$_IssueServiceParameter implements _IssueServiceParameter {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
             other is _IssueServiceParameter &&
-            (identical(other.displayName, displayName) ||
-                other.displayName == displayName) &&
-            (identical(other.readOnly, readOnly) ||
-                other.readOnly == readOnly) &&
+            const DeepCollectionEquality()
+                .equals(other.displayName, displayName) &&
+            const DeepCollectionEquality().equals(other.readOnly, readOnly) &&
             const DeepCollectionEquality()
                 .equals(other.validationMessages, validationMessages) &&
             const DeepCollectionEquality()
                 .equals(other.allowedValues, allowedValues) &&
-            (identical(other.type, type) || other.type == type) &&
-            (identical(other.status, status) || other.status == status));
+            const DeepCollectionEquality().equals(other.type, type) &&
+            const DeepCollectionEquality().equals(other.status, status));
   }
 
   @override
   int get hashCode => Object.hash(
       runtimeType,
-      displayName,
-      readOnly,
+      const DeepCollectionEquality().hash(displayName),
+      const DeepCollectionEquality().hash(readOnly),
       const DeepCollectionEquality().hash(validationMessages),
       const DeepCollectionEquality().hash(allowedValues),
-      type,
-      status);
+      const DeepCollectionEquality().hash(type),
+      const DeepCollectionEquality().hash(status));
 
   @JsonKey(ignore: true)
   @override
@@ -6612,17 +6729,21 @@ class _$_IssueServiceParameterType implements _IssueServiceParameterType {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
             other is _IssueServiceParameterType &&
-            (identical(other.validation, validation) ||
-                other.validation == validation) &&
-            (identical(other.typeDefinition, typeDefinition) ||
-                other.typeDefinition == typeDefinition) &&
-            (identical(other.hidden, hidden) || other.hidden == hidden) &&
-            (identical(other.id, id) || other.id == id));
+            const DeepCollectionEquality()
+                .equals(other.validation, validation) &&
+            const DeepCollectionEquality()
+                .equals(other.typeDefinition, typeDefinition) &&
+            const DeepCollectionEquality().equals(other.hidden, hidden) &&
+            const DeepCollectionEquality().equals(other.id, id));
   }
 
   @override
-  int get hashCode =>
-      Object.hash(runtimeType, validation, typeDefinition, hidden, id);
+  int get hashCode => Object.hash(
+      runtimeType,
+      const DeepCollectionEquality().hash(validation),
+      const DeepCollectionEquality().hash(typeDefinition),
+      const DeepCollectionEquality().hash(hidden),
+      const DeepCollectionEquality().hash(id));
 
   @JsonKey(ignore: true)
   @override
@@ -6817,15 +6938,17 @@ class _$_IssueServiceTypeDefinition implements _IssueServiceTypeDefinition {
             other is _IssueServiceTypeDefinition &&
             const DeepCollectionEquality()
                 .equals(other.enumeration, enumeration) &&
-            (identical(other.baseType, baseType) ||
-                other.baseType == baseType) &&
-            (identical(other.defaultValue, defaultValue) ||
-                other.defaultValue == defaultValue));
+            const DeepCollectionEquality().equals(other.baseType, baseType) &&
+            const DeepCollectionEquality()
+                .equals(other.defaultValue, defaultValue));
   }
 
   @override
-  int get hashCode => Object.hash(runtimeType,
-      const DeepCollectionEquality().hash(enumeration), baseType, defaultValue);
+  int get hashCode => Object.hash(
+      runtimeType,
+      const DeepCollectionEquality().hash(enumeration),
+      const DeepCollectionEquality().hash(baseType),
+      const DeepCollectionEquality().hash(defaultValue));
 
   @JsonKey(ignore: true)
   @override
@@ -7068,25 +7191,24 @@ class _$_IssueTravellerParameter implements _IssueTravellerParameter {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
             other is _IssueTravellerParameter &&
-            (identical(other.displayName, displayName) ||
-                other.displayName == displayName) &&
-            (identical(other.readOnly, readOnly) ||
-                other.readOnly == readOnly) &&
+            const DeepCollectionEquality()
+                .equals(other.displayName, displayName) &&
+            const DeepCollectionEquality().equals(other.readOnly, readOnly) &&
             const DeepCollectionEquality()
                 .equals(other.validationMessages, validationMessages) &&
             const DeepCollectionEquality()
                 .equals(other.allowedValues, allowedValues) &&
-            (identical(other.type, type) || other.type == type));
+            const DeepCollectionEquality().equals(other.type, type));
   }
 
   @override
   int get hashCode => Object.hash(
       runtimeType,
-      displayName,
-      readOnly,
+      const DeepCollectionEquality().hash(displayName),
+      const DeepCollectionEquality().hash(readOnly),
       const DeepCollectionEquality().hash(validationMessages),
       const DeepCollectionEquality().hash(allowedValues),
-      type);
+      const DeepCollectionEquality().hash(type));
 
   @JsonKey(ignore: true)
   @override
@@ -7375,22 +7497,28 @@ class _$_IssueTravellerParameterType implements _IssueTravellerParameterType {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
             other is _IssueTravellerParameterType &&
-            (identical(other.validation, validation) ||
-                other.validation == validation) &&
-            (identical(other.typeDefinition, typeDefinition) ||
-                other.typeDefinition == typeDefinition) &&
-            (identical(other.hidden, hidden) || other.hidden == hidden) &&
-            (identical(other.id, id) || other.id == id) &&
-            (identical(other.identification, identification) ||
-                other.identification == identification) &&
-            (identical(other.personal, personal) ||
-                other.personal == personal) &&
-            (identical(other.marker, marker) || other.marker == marker));
+            const DeepCollectionEquality()
+                .equals(other.validation, validation) &&
+            const DeepCollectionEquality()
+                .equals(other.typeDefinition, typeDefinition) &&
+            const DeepCollectionEquality().equals(other.hidden, hidden) &&
+            const DeepCollectionEquality().equals(other.id, id) &&
+            const DeepCollectionEquality()
+                .equals(other.identification, identification) &&
+            const DeepCollectionEquality().equals(other.personal, personal) &&
+            const DeepCollectionEquality().equals(other.marker, marker));
   }
 
   @override
-  int get hashCode => Object.hash(runtimeType, validation, typeDefinition,
-      hidden, id, identification, personal, marker);
+  int get hashCode => Object.hash(
+      runtimeType,
+      const DeepCollectionEquality().hash(validation),
+      const DeepCollectionEquality().hash(typeDefinition),
+      const DeepCollectionEquality().hash(hidden),
+      const DeepCollectionEquality().hash(id),
+      const DeepCollectionEquality().hash(identification),
+      const DeepCollectionEquality().hash(personal),
+      const DeepCollectionEquality().hash(marker));
 
   @JsonKey(ignore: true)
   @override
@@ -7660,27 +7788,24 @@ class _$_IssueTravellerTypeDefinition implements _IssueTravellerTypeDefinition {
             other is _IssueTravellerTypeDefinition &&
             const DeepCollectionEquality()
                 .equals(other.enumeration, enumeration) &&
-            (identical(other.validationPattern, validationPattern) ||
-                other.validationPattern == validationPattern) &&
-            (identical(other.inputPattern, inputPattern) ||
-                other.inputPattern == inputPattern) &&
-            (identical(other.minLength, minLength) ||
-                other.minLength == minLength) &&
-            (identical(other.maxLength, maxLength) ||
-                other.maxLength == maxLength) &&
-            (identical(other.baseType, baseType) ||
-                other.baseType == baseType));
+            const DeepCollectionEquality()
+                .equals(other.validationPattern, validationPattern) &&
+            const DeepCollectionEquality()
+                .equals(other.inputPattern, inputPattern) &&
+            const DeepCollectionEquality().equals(other.minLength, minLength) &&
+            const DeepCollectionEquality().equals(other.maxLength, maxLength) &&
+            const DeepCollectionEquality().equals(other.baseType, baseType));
   }
 
   @override
   int get hashCode => Object.hash(
       runtimeType,
       const DeepCollectionEquality().hash(enumeration),
-      validationPattern,
-      inputPattern,
-      minLength,
-      maxLength,
-      baseType);
+      const DeepCollectionEquality().hash(validationPattern),
+      const DeepCollectionEquality().hash(inputPattern),
+      const DeepCollectionEquality().hash(minLength),
+      const DeepCollectionEquality().hash(maxLength),
+      const DeepCollectionEquality().hash(baseType));
 
   @JsonKey(ignore: true)
   @override
@@ -7894,17 +8019,21 @@ class _$_SaleCompany implements _SaleCompany {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
             other is _SaleCompany &&
-            (identical(other.companyName, companyName) ||
-                other.companyName == companyName) &&
-            (identical(other.corporateDesignation, corporateDesignation) ||
-                other.corporateDesignation == corporateDesignation) &&
-            (identical(other.id, id) || other.id == id) &&
-            (identical(other.logoId, logoId) || other.logoId == logoId));
+            const DeepCollectionEquality()
+                .equals(other.companyName, companyName) &&
+            const DeepCollectionEquality()
+                .equals(other.corporateDesignation, corporateDesignation) &&
+            const DeepCollectionEquality().equals(other.id, id) &&
+            const DeepCollectionEquality().equals(other.logoId, logoId));
   }
 
   @override
-  int get hashCode =>
-      Object.hash(runtimeType, companyName, corporateDesignation, id, logoId);
+  int get hashCode => Object.hash(
+      runtimeType,
+      const DeepCollectionEquality().hash(companyName),
+      const DeepCollectionEquality().hash(corporateDesignation),
+      const DeepCollectionEquality().hash(id),
+      const DeepCollectionEquality().hash(logoId));
 
   @JsonKey(ignore: true)
   @override
@@ -8317,16 +8446,16 @@ class _$_OfferEntity implements _OfferEntity {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
             other is _OfferEntity &&
-            (identical(other.id, id) || other.id == id) &&
-            (identical(other.name, name) || other.name == name) &&
-            (identical(other.displayName, displayName) ||
-                other.displayName == displayName) &&
-            (identical(other.descriptionShort, descriptionShort) ||
-                other.descriptionShort == descriptionShort) &&
-            (identical(other.descriptionStandard, descriptionStandard) ||
-                other.descriptionStandard == descriptionStandard) &&
-            (identical(other.descriptionExtended, descriptionExtended) ||
-                other.descriptionExtended == descriptionExtended) &&
+            const DeepCollectionEquality().equals(other.id, id) &&
+            const DeepCollectionEquality().equals(other.name, name) &&
+            const DeepCollectionEquality()
+                .equals(other.displayName, displayName) &&
+            const DeepCollectionEquality()
+                .equals(other.descriptionShort, descriptionShort) &&
+            const DeepCollectionEquality()
+                .equals(other.descriptionStandard, descriptionStandard) &&
+            const DeepCollectionEquality()
+                .equals(other.descriptionExtended, descriptionExtended) &&
             const DeepCollectionEquality().equals(
                 other.selectionTravellerParameters,
                 selectionTravellerParameters) &&
@@ -8336,36 +8465,33 @@ class _$_OfferEntity implements _OfferEntity {
                 other.selectionServiceParameters, selectionServiceParameters) &&
             const DeepCollectionEquality()
                 .equals(other.issueServiceParameters, issueServiceParameters) &&
-            (identical(other.promotion, promotion) ||
-                other.promotion == promotion) &&
-            (identical(other.roundTrip, roundTrip) ||
-                other.roundTrip == roundTrip) &&
-            (identical(other.offerFamily, offerFamily) ||
-                other.offerFamily == offerFamily) &&
+            const DeepCollectionEquality().equals(other.promotion, promotion) &&
+            const DeepCollectionEquality().equals(other.roundTrip, roundTrip) &&
+            const DeepCollectionEquality()
+                .equals(other.offerFamily, offerFamily) &&
             const DeepCollectionEquality()
                 .equals(other.attributes, attributes) &&
-            (identical(other.priority, priority) ||
-                other.priority == priority));
+            const DeepCollectionEquality().equals(other.priority, priority));
   }
 
   @override
   int get hashCode => Object.hash(
       runtimeType,
-      id,
-      name,
-      displayName,
-      descriptionShort,
-      descriptionStandard,
-      descriptionExtended,
+      const DeepCollectionEquality().hash(id),
+      const DeepCollectionEquality().hash(name),
+      const DeepCollectionEquality().hash(displayName),
+      const DeepCollectionEquality().hash(descriptionShort),
+      const DeepCollectionEquality().hash(descriptionStandard),
+      const DeepCollectionEquality().hash(descriptionExtended),
       const DeepCollectionEquality().hash(selectionTravellerParameters),
       const DeepCollectionEquality().hash(issueTravellerParameters),
       const DeepCollectionEquality().hash(selectionServiceParameters),
       const DeepCollectionEquality().hash(issueServiceParameters),
-      promotion,
-      roundTrip,
-      offerFamily,
+      const DeepCollectionEquality().hash(promotion),
+      const DeepCollectionEquality().hash(roundTrip),
+      const DeepCollectionEquality().hash(offerFamily),
       const DeepCollectionEquality().hash(attributes),
-      priority);
+      const DeepCollectionEquality().hash(priority));
 
   @JsonKey(ignore: true)
   @override
@@ -8567,13 +8693,15 @@ class _$_OfferEntityAttribute implements _OfferEntityAttribute {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
             other is _OfferEntityAttribute &&
-            (identical(other.name, name) || other.name == name) &&
+            const DeepCollectionEquality().equals(other.name, name) &&
             const DeepCollectionEquality().equals(other.values, values));
   }
 
   @override
   int get hashCode => Object.hash(
-      runtimeType, name, const DeepCollectionEquality().hash(values));
+      runtimeType,
+      const DeepCollectionEquality().hash(name),
+      const DeepCollectionEquality().hash(values));
 
   @JsonKey(ignore: true)
   @override
@@ -8865,31 +8993,30 @@ class _$_SelectedOfferParameter implements _SelectedOfferParameter {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
             other is _SelectedOfferParameter &&
-            (identical(other.displayName, displayName) ||
-                other.displayName == displayName) &&
-            (identical(other.readOnly, readOnly) ||
-                other.readOnly == readOnly) &&
-            (identical(other.value, value) || other.value == value) &&
-            (identical(other.valid, valid) || other.valid == valid) &&
+            const DeepCollectionEquality()
+                .equals(other.displayName, displayName) &&
+            const DeepCollectionEquality().equals(other.readOnly, readOnly) &&
+            const DeepCollectionEquality().equals(other.value, value) &&
+            const DeepCollectionEquality().equals(other.valid, valid) &&
             const DeepCollectionEquality()
                 .equals(other.validationMessages, validationMessages) &&
             const DeepCollectionEquality()
                 .equals(other.allowedValues, allowedValues) &&
-            (identical(other.type, type) || other.type == type) &&
-            (identical(other.status, status) || other.status == status));
+            const DeepCollectionEquality().equals(other.type, type) &&
+            const DeepCollectionEquality().equals(other.status, status));
   }
 
   @override
   int get hashCode => Object.hash(
       runtimeType,
-      displayName,
-      readOnly,
-      value,
-      valid,
+      const DeepCollectionEquality().hash(displayName),
+      const DeepCollectionEquality().hash(readOnly),
+      const DeepCollectionEquality().hash(value),
+      const DeepCollectionEquality().hash(valid),
       const DeepCollectionEquality().hash(validationMessages),
       const DeepCollectionEquality().hash(allowedValues),
-      type,
-      status);
+      const DeepCollectionEquality().hash(type),
+      const DeepCollectionEquality().hash(status));
 
   @JsonKey(ignore: true)
   @override
@@ -9128,17 +9255,21 @@ class _$_SelectedOfferType implements _SelectedOfferType {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
             other is _SelectedOfferType &&
-            (identical(other.validation, validation) ||
-                other.validation == validation) &&
-            (identical(other.typeDefinition, typeDefinition) ||
-                other.typeDefinition == typeDefinition) &&
-            (identical(other.hidden, hidden) || other.hidden == hidden) &&
-            (identical(other.id, id) || other.id == id));
+            const DeepCollectionEquality()
+                .equals(other.validation, validation) &&
+            const DeepCollectionEquality()
+                .equals(other.typeDefinition, typeDefinition) &&
+            const DeepCollectionEquality().equals(other.hidden, hidden) &&
+            const DeepCollectionEquality().equals(other.id, id));
   }
 
   @override
-  int get hashCode =>
-      Object.hash(runtimeType, validation, typeDefinition, hidden, id);
+  int get hashCode => Object.hash(
+      runtimeType,
+      const DeepCollectionEquality().hash(validation),
+      const DeepCollectionEquality().hash(typeDefinition),
+      const DeepCollectionEquality().hash(hidden),
+      const DeepCollectionEquality().hash(id));
 
   @JsonKey(ignore: true)
   @override
@@ -9387,8 +9518,8 @@ class _$_SolutionNodeRef implements _SolutionNodeRef {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
             other is _SolutionNodeRef &&
-            (identical(other.type, type) || other.type == type) &&
-            (identical(other.idXml, idXml) || other.idXml == idXml) &&
+            const DeepCollectionEquality().equals(other.type, type) &&
+            const DeepCollectionEquality().equals(other.idXml, idXml) &&
             const DeepCollectionEquality()
                 .equals(other.solutionServices, solutionServices) &&
             const DeepCollectionEquality()
@@ -9402,8 +9533,8 @@ class _$_SolutionNodeRef implements _SolutionNodeRef {
   @override
   int get hashCode => Object.hash(
       runtimeType,
-      type,
-      idXml,
+      const DeepCollectionEquality().hash(type),
+      const DeepCollectionEquality().hash(idXml),
       const DeepCollectionEquality().hash(solutionServices),
       const DeepCollectionEquality().hash(selectedOffers),
       const DeepCollectionEquality().hash(ancillaries),
@@ -9637,19 +9768,22 @@ class _$_SolutionService implements _SolutionService {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
             other is _SolutionService &&
-            (identical(other.catalogService, catalogService) ||
-                other.catalogService == catalogService) &&
-            (identical(other.available, available) ||
-                other.available == available) &&
-            (identical(other.offersNumber, offersNumber) ||
-                other.offersNumber == offersNumber) &&
-            (identical(other.providerId, providerId) ||
-                other.providerId == providerId));
+            const DeepCollectionEquality()
+                .equals(other.catalogService, catalogService) &&
+            const DeepCollectionEquality().equals(other.available, available) &&
+            const DeepCollectionEquality()
+                .equals(other.offersNumber, offersNumber) &&
+            const DeepCollectionEquality()
+                .equals(other.providerId, providerId));
   }
 
   @override
   int get hashCode => Object.hash(
-      runtimeType, catalogService, available, offersNumber, providerId);
+      runtimeType,
+      const DeepCollectionEquality().hash(catalogService),
+      const DeepCollectionEquality().hash(available),
+      const DeepCollectionEquality().hash(offersNumber),
+      const DeepCollectionEquality().hash(providerId));
 
   @JsonKey(ignore: true)
   @override

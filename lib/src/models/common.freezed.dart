@@ -1,5 +1,6 @@
 // coverage:ignore-file
 // GENERATED CODE - DO NOT MODIFY BY HAND
+// ignore_for_file: type=lint
 // ignore_for_file: unused_element, deprecated_member_use, deprecated_member_use_from_same_package, use_function_type_syntax_for_parameters, unnecessary_const, avoid_init_to_null, invalid_override_different_default_values_named, prefer_expression_function_bodies, annotate_overrides, invalid_annotation_target
 
 part of 'common.dart';
@@ -365,39 +366,38 @@ class _$_Location implements _Location {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
             other is _Location &&
-            (identical(other.timezone, timezone) ||
-                other.timezone == timezone) &&
-            (identical(other.name, name) || other.name == name) &&
+            const DeepCollectionEquality().equals(other.timezone, timezone) &&
+            const DeepCollectionEquality().equals(other.name, name) &&
             const DeepCollectionEquality().equals(other.aliases, aliases) &&
-            (identical(other.locationId, locationId) ||
-                other.locationId == locationId) &&
-            (identical(other.visible, visible) || other.visible == visible) &&
-            (identical(other.geographicCoordinates, geographicCoordinates) ||
-                other.geographicCoordinates == geographicCoordinates) &&
+            const DeepCollectionEquality()
+                .equals(other.locationId, locationId) &&
+            const DeepCollectionEquality().equals(other.visible, visible) &&
+            const DeepCollectionEquality()
+                .equals(other.geographicCoordinates, geographicCoordinates) &&
             const DeepCollectionEquality()
                 .equals(other.attributeValues, attributeValues) &&
-            (identical(other.bdo, bdo) || other.bdo == bdo) &&
-            (identical(other.bdoCode, bdoCode) || other.bdoCode == bdoCode) &&
-            (identical(other.multistation, multistation) ||
-                other.multistation == multistation) &&
-            (identical(other.zonaFrecce, zonaFrecce) ||
-                other.zonaFrecce == zonaFrecce));
+            const DeepCollectionEquality().equals(other.bdo, bdo) &&
+            const DeepCollectionEquality().equals(other.bdoCode, bdoCode) &&
+            const DeepCollectionEquality()
+                .equals(other.multistation, multistation) &&
+            const DeepCollectionEquality()
+                .equals(other.zonaFrecce, zonaFrecce));
   }
 
   @override
   int get hashCode => Object.hash(
       runtimeType,
-      timezone,
-      name,
+      const DeepCollectionEquality().hash(timezone),
+      const DeepCollectionEquality().hash(name),
       const DeepCollectionEquality().hash(aliases),
-      locationId,
-      visible,
-      geographicCoordinates,
+      const DeepCollectionEquality().hash(locationId),
+      const DeepCollectionEquality().hash(visible),
+      const DeepCollectionEquality().hash(geographicCoordinates),
       const DeepCollectionEquality().hash(attributeValues),
-      bdo,
-      bdoCode,
-      multistation,
-      zonaFrecce);
+      const DeepCollectionEquality().hash(bdo),
+      const DeepCollectionEquality().hash(bdoCode),
+      const DeepCollectionEquality().hash(multistation),
+      const DeepCollectionEquality().hash(zonaFrecce));
 
   @JsonKey(ignore: true)
   @override
@@ -607,12 +607,15 @@ class _$_Alias implements _Alias {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
             other is _Alias &&
-            (identical(other.name, name) || other.name == name) &&
-            (identical(other.lang, lang) || other.lang == lang));
+            const DeepCollectionEquality().equals(other.name, name) &&
+            const DeepCollectionEquality().equals(other.lang, lang));
   }
 
   @override
-  int get hashCode => Object.hash(runtimeType, name, lang);
+  int get hashCode => Object.hash(
+      runtimeType,
+      const DeepCollectionEquality().hash(name),
+      const DeepCollectionEquality().hash(lang));
 
   @JsonKey(ignore: true)
   @override
@@ -777,14 +780,15 @@ class _$_GeographicCoordinates implements _GeographicCoordinates {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
             other is _GeographicCoordinates &&
-            (identical(other.longitude, longitude) ||
-                other.longitude == longitude) &&
-            (identical(other.latitude, latitude) ||
-                other.latitude == latitude));
+            const DeepCollectionEquality().equals(other.longitude, longitude) &&
+            const DeepCollectionEquality().equals(other.latitude, latitude));
   }
 
   @override
-  int get hashCode => Object.hash(runtimeType, longitude, latitude);
+  int get hashCode => Object.hash(
+      runtimeType,
+      const DeepCollectionEquality().hash(longitude),
+      const DeepCollectionEquality().hash(latitude));
 
   @JsonKey(ignore: true)
   @override
@@ -951,14 +955,16 @@ class _$_TrainLogoInformation implements _TrainLogoInformation {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
             other is _TrainLogoInformation &&
-            (identical(other.acronym, acronym) || other.acronym == acronym) &&
+            const DeepCollectionEquality().equals(other.acronym, acronym) &&
             const DeepCollectionEquality()
                 .equals(other.attributes, attributes));
   }
 
   @override
   int get hashCode => Object.hash(
-      runtimeType, acronym, const DeepCollectionEquality().hash(attributes));
+      runtimeType,
+      const DeepCollectionEquality().hash(acronym),
+      const DeepCollectionEquality().hash(attributes));
 
   @JsonKey(ignore: true)
   @override
@@ -1131,13 +1137,16 @@ class _$_TrainLogoInformationAttribute
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
             other is _TrainLogoInformationAttribute &&
-            (identical(other.attributeType, attributeType) ||
-                other.attributeType == attributeType) &&
-            (identical(other.value, value) || other.value == value));
+            const DeepCollectionEquality()
+                .equals(other.attributeType, attributeType) &&
+            const DeepCollectionEquality().equals(other.value, value));
   }
 
   @override
-  int get hashCode => Object.hash(runtimeType, attributeType, value);
+  int get hashCode => Object.hash(
+      runtimeType,
+      const DeepCollectionEquality().hash(attributeType),
+      const DeepCollectionEquality().hash(value));
 
   @JsonKey(ignore: true)
   @override
@@ -1404,19 +1413,25 @@ class _$_Classification implements _Classification {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
             other is _Classification &&
-            (identical(other.type, type) || other.type == type) &&
-            (identical(other.classification, classification) ||
-                other.classification == classification) &&
-            (identical(other.acronym, acronym) || other.acronym == acronym) &&
-            (identical(other.id, id) || other.id == id) &&
-            (identical(other.uicCode, uicCode) || other.uicCode == uicCode) &&
-            (identical(other.uicAbbreviation, uicAbbreviation) ||
-                other.uicAbbreviation == uicAbbreviation));
+            const DeepCollectionEquality().equals(other.type, type) &&
+            const DeepCollectionEquality()
+                .equals(other.classification, classification) &&
+            const DeepCollectionEquality().equals(other.acronym, acronym) &&
+            const DeepCollectionEquality().equals(other.id, id) &&
+            const DeepCollectionEquality().equals(other.uicCode, uicCode) &&
+            const DeepCollectionEquality()
+                .equals(other.uicAbbreviation, uicAbbreviation));
   }
 
   @override
   int get hashCode => Object.hash(
-      runtimeType, type, classification, acronym, id, uicCode, uicAbbreviation);
+      runtimeType,
+      const DeepCollectionEquality().hash(type),
+      const DeepCollectionEquality().hash(classification),
+      const DeepCollectionEquality().hash(acronym),
+      const DeepCollectionEquality().hash(id),
+      const DeepCollectionEquality().hash(uicCode),
+      const DeepCollectionEquality().hash(uicAbbreviation));
 
   @JsonKey(ignore: true)
   @override
