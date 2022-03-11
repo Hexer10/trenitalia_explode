@@ -80,20 +80,6 @@ Map<String, dynamic> _$$_IdToJson(_$_Id instance) => <String, dynamic>{
       'routeId': instance.routeId,
     };
 
-_$_TrainLogoInformation _$$_TrainLogoInformationFromJson(
-        Map<String, dynamic> json) =>
-    _$_TrainLogoInformation(
-      acronym: json['acronym'] as String,
-      attributes: json['attributes'] as List<dynamic>,
-    );
-
-Map<String, dynamic> _$$_TrainLogoInformationToJson(
-        _$_TrainLogoInformation instance) =>
-    <String, dynamic>{
-      'acronym': instance.acronym,
-      'attributes': instance.attributes,
-    };
-
 _$_Stop _$$_StopFromJson(Map<String, dynamic> json) => _$_Stop(
       location: Location.fromJson(json['location'] as Map<String, dynamic>),
       arrivalTime: json['arrivalTime'] == null

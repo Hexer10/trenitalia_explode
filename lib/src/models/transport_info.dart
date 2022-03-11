@@ -85,19 +85,6 @@ class Id with _$Id {
 }
 
 @freezed
-class TrainLogoInformation with _$TrainLogoInformation {
-  const factory TrainLogoInformation({
-    /// Train acronym.
-    required String acronym,
-
-    /// Unknown. Seems is always an empty list.
-    required List<dynamic> attributes,
-  }) = _TrainLogoInformation;
-
-  factory TrainLogoInformation.fromJson(Map<String, dynamic> json) => _$TrainLogoInformationFromJson(json);
-}
-
-@freezed
 class Stop with _$Stop {
   const factory Stop({
     /// Stop location.
