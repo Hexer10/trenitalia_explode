@@ -1,5 +1,0 @@
-TrainInfo(transportMeanName: 35539, transportDenomination: INTERCITYNOTTE, startTime: 2021-11-30 23:00:00.000Z, startLocation: Location(timezone: Europe/Rome, name: Torino Porta Nuova, aliases: [Alias(name: TURIN PORTA NUOVA                  
-, lang: FR), Alias(name: TURIN PORTA NUOVA                  
-, lang: DE), Alias(name: TURIN PORTA NUOVA                  
-, lang: EN), Alias(name: TURIN PORTA NUOVA                  
-, lang: ES)], locationId: 830000219, visible: true, geographicCoordinates: GeographicCoordinates(longitude: 7.677471, latitude: 45.060971), attributeValues: [], bdo: true, bdoCode: S00219, multistation: false, zonaFrecce: true), endLocation: Location(timezone: Europe/Rome, name: Lecce, aliases: [], locationId: 830011145, visible: true, geographicCoordinates: GeographicCoordinates(longitude: 18.165768, latitude: 40.345818), attributeValues: [], bdo: true, bdoCode: S11145, multistation: false, zonaFrecce: true))
